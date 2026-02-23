@@ -8,19 +8,19 @@ Dismissing accomplishments by adding qualifiers like "just," "merely," or "glori
 
 - "It's just a glorified LEO station."
 - "That's merely a wrapper around existing libraries."
-- "It's only a incremental improvement, nothing groundbreaking."
+- "It's only an incremental improvement, nothing groundbreaking."
 - "This is basically just X with a fancy UI."
 
 ## Why It's Unproductive
 
-Frames discussion around what something isn't rather than what it is. The minimizing language suggests the achievement doesn't deserve recognition, which shuts down conversation about its actual merits or challenges. People often do this to signal their own higher standards or technical sophistication, but it discourages sharing accomplishments and learning from what worked.
+Frames discussion around what something isn't rather than what it is. The minimizing language suggests the achievement doesn't deserve recognition, which shuts down conversation about its actual merits or challenges. People might do this to signal their own higher standards or technical sophistication, but it discourages sharing accomplishments and learning from what worked.
 
 ## The Better Move
 
 - "The engineering is impressive, though I'd be interested in seeing this approach applied to deep space missions."
-- "Building on existing libraries is smart. The real value seems to be in how it combines them."
+- "Building on existing software libraries is smart. The real value seems to be in how it combines them."
 - "Fair point about incremental progress. What would the next breakthrough look like to you?"
-- "The UI work matters - that's often what makes tech actually usable."
+- "It's X but with a UX that caters to nontechnical folks, making X more accessible."
 
 ### Why It's Better
 

@@ -3,7 +3,6 @@ title: Pattern Name
 ---
 
 
-
 [Brief description of what the antipattern looks like]
 
 [Example quote 1]
@@ -36,7 +35,7 @@ title: Pattern Name
 
 ## Example
 
-**OP**: [Original comment/topic]
+**OP**: [Original comment or topic]
 
 **Antipattern reply**: [Antipattern response]
 

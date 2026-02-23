@@ -16,7 +16,7 @@ Performatively questioning why something isn't getting more attention when it's 
 
 ### Why It's Unproductive
 
-Reframes the conversation around meta-commentary about visibility instead of the actual topic. It's tempting because it positions the commenter as someone who spotted something important before others, but it usually appears on posts that already have thousands of views. Derails potential substantive discussion into debates about algorithms, attention, and what "deserves" visibility.
+Reframes the conversation around meta-commentary about visibility instead of the actual topic. It's tempting because it positions the commenter as someone who spotted something important before others, but it usually appears on posts that already have thousands of views or posts the social media's feed system thinks the user will engage with. Derails potential substantive discussion into debates about algorithms, attention, and what "deserves" visibility.
 
 ## The Better Move
 

@@ -4,19 +4,19 @@ title: DIY Dismissal
 
 
 
-Telling someone to build it themselves instead of engaging with their critique or suggestion.
+Telling someone to build it themselves instead of engaging with their critique or suggestion. Usually when someone has criticized another's software.
 
 "If you don't like it, make your own."
 
 "Sounds like a great project for you to start."
 
-"PRs welcome."
+"Nobody's stopping you from building a better one."
 
-"You're free to fork it."
+"Cool idea. You should go make it."
 
 ### Why It's Unproductive
 
-Sets an impossible bar for participation: you can only have opinions about things you're personally willing to build from scratch. It sounds empowering but works as a conversation-ender, reframing legitimate feedback as entitlement. By this logic, you can't discuss a film unless you're a director, or talk about city planning unless you're an engineer.
+Sets an high bar for participation: you can only have opinions about things you're personally willing to build from scratch. It sounds empowering but works as a conversation-ender, reframing legitimate feedback as entitlement. Often shows up in open source software and product discussions where maintainers feel protective of their work.
 
 ## The Better Move
 
@@ -26,7 +26,7 @@ Sets an impossible bar for participation: you can only have opinions about thing
 
 "Fair point. I'd want to see how that works with the existing constraints."
 
-"That's a real gap. I wonder if anyone's tried it."
+"That's a real gap but not a priority for me right now."
 
 ### Why It's Better
 

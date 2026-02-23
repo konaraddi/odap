@@ -26,7 +26,7 @@ Edit to add sources or clarify, not to complain: "EDIT: Adding source for this c
 
 Respond to specific criticisms in replies instead of making it about votes.
 
-Or simply leave it. Not every comment needs defending.
+Or simply leave it. Not every comment needs defending, accept downvotes with grace.
 
 ### Why It's Better
 
@@ -38,6 +38,6 @@ Focuses on improving the argument rather than prosecuting the audience. Treats d
 
 **Original comment**: "This policy will backfire because [argument]." [Gets downvoted]
 
-**Antipattern reply**: "EDIT: Getting downvoted for stating facts. Stay mad, Reddit."
+**Antipattern**: "This policy will backfire because [argument]. EDIT: Getting downvoted for stating facts. Stay mad, Reddit."
 
-**Better**: "EDIT: For those asking for evidence, here's the analysis I'm basing this on: [link]. Happy to discuss specific concerns."
+**Better**: "This policy will backfire because [argument]. EDIT: For those asking for evidence, here's the analysis I'm basing this on: [link]. Happy to discuss specific concerns."

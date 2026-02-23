@@ -17,10 +17,10 @@ Treats disagreement as ignorance rather than a difference in perspective or prio
 
 ## The Better Move
 
-- "Compilers actually have some non-deterministic aspects like optimization heuristics, though I get your concern about LLMs."
-- "Modern compilers aren't fully deterministic either, but you're right that LLM unpredictability is a different category."
-- "Interesting point. Traditional compilers have some non-deterministic optimizations too. Here's how..."
-- "I see your concern about determinism. Worth noting that even C compilers have some undefined behaviors."
+- "Actually [the thing] works differently than you might expect. Here's what I mean..."
+- "I see your concern about [X]. There's a nuance here that's worth knowing: [information]."
+- "That's a common misconception. [The actual situation], though I get where you're coming from."
+- "Your point about [X] makes sense, but [relevant information that changes the picture]."
 
 ### Why It's Better
 

@@ -11,7 +11,7 @@ Each pattern includes:
 - Why it isn't productive
 - Better alternatives
 
-The goal is to make online conversations a little more productive, one reply at a time. We recognize that this guide isn't applicable to many online spaces and nor should it be applicable in all online spaces.
+The goal is to make online conversations more productive, one reply at a time. We recognize that this guide isn't applicable to many online spaces and nor should it be applicable in all online spaces. 
 
 ## How to Use These
 
@@ -25,15 +25,13 @@ If you see one of these patterns in an online discussion (including your own com
 
 **Example:** Instead of just dropping a link, you might say: "I think we might be talking past each other here. [This pattern](https://example.com) describes what I'm seeing. On the actual question about X, I think..."
 
-The point is to get conversations back on track, not to lecture people about how they communicate.
-
 ## Who This Is For
 
 ### Self-improvement
 Reading patterns to recognize and improve your own discourse habits in online discussions.
 
 ### Constructive response
-Politely linking to patterns when you see antipatterns in Reddit threads, HN comment sections, Twitter debates, and other online forums.
+Politely linking to patterns when you see antipatterns in Reddit threads, HN comment sections, Twitter threads, and other online forums.
 
 ### Observer learning
 Understanding what makes online conversations go sideways, whether on social media or discussion boards.
