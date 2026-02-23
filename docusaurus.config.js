@@ -33,7 +33,7 @@ const config = {
         },
       },
       navbar: {
-        title: 'odap',
+        title: 'ODAP',
         items: [
           { type: 'doc', docId: 'index', label: 'Docs', position: 'left' },
           {
