@@ -20,24 +20,24 @@ Sounds like seeking precision but derails into dictionary debates instead of add
 
 ## The Better Move
 
-"I think you mean [term], but I understand your point. What about [substantive response]?"
-
-"Minor note: the technical term is [X]. On the main point, I think..."
-
-"If I'm understanding correctly, you're saying [restate in own words]. Is that right?"
-
-"The terminology aside, the core question seems to be..."
+If you understood the point, respond to the point. You can note imprecise language without making it the whole conversation. Correct the term if you want, then engage with the substance.
 
 ### Why It's Better
 
-Acknowledges imprecision without making it the focus. Shows that understanding the substance matters more than scoring points on word choice, and keeps the conversation moving forward.
+Shows you understood what they meant and keeps the discussion on track. You can still be precise without turning precision into a roadblock.
 
 ---
 
-## Example
+## Examples
 
 **OP**: "The company's monopolistic practices are harming consumers."
+**Antipattern**: "They're not a monopoly. Technically, they only have 65% market share. A monopoly is 100%."
+**Better**: "Not a monopoly in the legal sense, but 65% market share with that kind of lock-in is still worth worrying about. What would you change?"
 
-**Antipattern reply**: "They're not a monopoly. Technically, they only have 65% market share. A monopoly is 100%."
+**OP**: "Drilled holes in ancient artifacts should be sufficient evidence that they had drills."
+**Antipattern**: "How do you define 'drill'? You can put holes through things without a drill. Are you certain you can distinguish the methods?"
+**Better**: "Fair point, though archaeologists want to rule out other methods first. The new bow drill find is interesting because it actually confirms what the holes suggested."
 
-**Better**: "They don't meet the strict legal definition of monopoly, but I agree that market concentration at that level raises concerns. What remedies do you think would help?"
+**OP**: "Most MUD games used Telnet back in the day."
+**Antipattern**: "MUDs don't use Telnet. Telnet is a specific IETF-standard protocol with in-band signaling. MUDs use plaintext TCP, which is completely different."
+**Better**: "Technically most MUDs used raw TCP, not Telnet proper, but yeah, you'd connect with a telnet client and it worked fine. The distinction matters more if you're writing a client than if you're reminiscing."

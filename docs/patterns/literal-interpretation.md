@@ -6,32 +6,35 @@ title: Literal Interpretation
 
 Taking metaphorical or abstract points literally to create gotcha moments, avoiding engagement with the actual substance.
 
-- "What compiler accepts cash as input?"
-- "Can you show me where code has feelings?"
-- "I've never seen a computer 'think' about anything."
-- "Architecture doesn't have blueprints for software."
+- "Can you show me where the economy literally 'overheats'? What's the temperature?"
+- "Wars don't have 'seeds.' Seeds are for plants."
+- "How exactly does a company 'digest' information? Does it have a stomach?"
+- "You can't literally 'build' a relationship. Where are the bricks?"
 
 ## Why It's Unproductive
 
-Treats figurative language as if it were meant literally, creating a false contradiction to sound clever. Everyone knows metaphors aren't precise technical descriptions - that's not the point of using them. This deflects from the actual idea being communicated (like how AI changes workflows or what makes good software design) to play word games about the metaphor itself.
+Treats figurative language as if it were meant literally, creating a false contradiction to sound clever. Everyone knows metaphors aren't precise technical descriptions - that's not the point of using them. This deflects from the actual idea being communicated to play word games about the metaphor itself.
 
 ## The Better Move
 
-- "The economic model is interesting. Though I wonder if 'cash to code' will be as reliable as traditional compilation."
-- "Fair point about the workflow transformation. The key question is whether the quality is consistent enough to skip human review."
-- "True, though the 'compiler' metaphor breaks down when reliability and determinism matter."
-- "I get the metaphor. My concern is whether the abstraction level is actually helpful or just obscures complexity."
+Engage with the idea behind the metaphor instead of the metaphor itself. You probably understood what they meant, so respond to that. If not, ask. You can question whether the metaphor is the right framing, but do it while engaging with the substance, not as a way to avoid it.
 
 ### Why It's Better
 
-Engages with the actual idea while acknowledging the metaphor. You can push back on whether the metaphor is helpful or apt without pretending you don't understand what they meant.
+Shows you understood the point and moves the conversation forward. You can still push back or disagree, just about the actual claim rather than the phrasing.
 
 ---
 
-## Example
+## Examples
 
-**OP**: "A compiler that can turn cash into improved code without round-tripping a human is very cool."
+**OP**: "Social media is rotting kids' brains."
+**Antipattern**: "Brains don't rot. Rot is a biological decomposition process."
+**Better**: "The attention and development effects are real concerns. Do you think it's more about screen time in general or specific platforms?"
 
-**Antipattern reply**: "What compiler accepts cash as input?"
+**OP**: "The economy is overheating and something has to give."
+**Antipattern**: "Can you show me where the economy literally 'overheats'? What's the temperature?"
+**Better**: "Inflation and wage pressure are definitely accelerating. What do you think breaks first, housing or consumer spending?"
 
-**Better**: "The economic model is interesting. The key question is whether it's reliable enough to skip human review in the loop."
+**OP**: "Tech companies are building a pipeline straight from CS programs to their hiring pools."
+**Antipattern**: "Companies don't have pipelines. Pipelines carry fluids."
+**Better**: "That recruiting pressure is real. I'm curious whether bootcamp grads are starting to disrupt that pattern at all."

@@ -16,28 +16,28 @@ Dismissing someone's viewpoint by suggesting they lack historical knowledge inst
 
 ### Why It's Unproductive
 
-Frames disagreement as ignorance while providing zero information to bridge the gap. It's tempting because it positions the speaker as educated and authoritative, but it dodges the work of actually explaining or citing sources. Leaves the other person with nowhere to go except getting defensive.
+Frames disagreement as ignorance while providing zero information to bridge the gap. It's tempting because it positions the speaker as educated and authoritative, but it dodges the work of actually explaining or citing sources. Leaves the other person with nowhere to go except maybe getting defensive.
 
 ## The Better Move
 
-"This overlooks the context of [specific event]. Here's what actually happened: [brief explanation]."
-
-"That interpretation misses [key historical detail]. The evidence shows [specific point]."
-
-"I understand why it seems that way, but historically [specific counterpoint with source]."
-
-"The historical record shows something different. [Specific fact] happened because [brief context]."
+If you think someone's missing important context, share the context. Name the specific event, fact, or detail that changes the picture. That's the whole move: replace "go educate yourself" with the education itself.
 
 ### Why It's Better
 
-Provides actual information instead of vague accusations of ignorance. Gives people something concrete to respond to or learn from, keeping the conversation moving forward instead of turning it into a status battle.
+Gives people something concrete to respond to or learn from, and keeps the conversation moving forward instead of turning it into a status contest.
 
 ---
 
-## Example
+## Examples
+
+**OP**: "Microservices are obviously the right architecture for any serious project."
+**Antipattern**: "Anyone who's studied distributed systems would know why that's wrong."
+**Better**: "Microservices add a ton of operational complexity. Most teams that switched from a monolith in the 2010s ended up reinventing half of what the monolith gave them for free. It depends heavily on team size and deployment needs."
+
+**OP**: "I don't get why people make such a big deal about database indexes. Just query the data you need."
+**Antipattern**: "Maybe read a database textbook before commenting on performance."
+**Better**: "Without an index, the DB has to scan every row in the table. On a table with a few million rows that turns a 5ms query into a 30-second one. It's one of those things where the difference is dramatic enough to matter even at modest scale."
 
 **OP**: "The Founders never intended for the government to be this involved in daily life."
-
-**Antipattern reply**: "If you believe that, you seriously need a history lesson."
-
-**Better**: "The Founders actually debated this extensively. Hamilton, for instance, advocated for a strong federal role in commerce and banking. There's good historical evidence on both sides of this question."
+**Antipattern**: "If you believe that, you seriously need a history lesson."
+**Better**: "Hamilton pushed hard for federal involvement in commerce and banking, and the first Congress set up oversight of trade and public health. They debated the scope of government constantly. It wasn't as settled as people assume."

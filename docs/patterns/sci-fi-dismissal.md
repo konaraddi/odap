@@ -17,21 +17,24 @@ Treats legitimate technical or ethical concerns as naive science fiction fears r
 
 ## The Better Move
 
-- "Self-preservation goals raise interesting alignment questions. How would you prevent that from conflicting with human values?"
-- "That's getting into instrumental convergence territory. What safeguards would make this safe?"
-- "I see the concern. What's the benefit you see that outweighs the risks?"
-- "The Black Mirror comparison isn't far off, but what specifically worries you about this implementation?"
+Engage with the specific concern or tradeoff instead of collapsing it into a pop culture reference. You can acknowledge the fictional parallel without letting it replace the actual conversation. Ask about the implementation, the risks, or the details that make this case different from a movie plot.
 
 ### Why It's Better
 
-Takes the concern seriously and asks about specifics. Acknowledges the parallel to fiction without dismissing the substantive point, keeping the conversation focused on actual technical or ethical questions.
+People raising technical or ethical concerns usually know the sci-fi parallels already. Pointing them out adds nothing. Asking about specifics moves the conversation past the reference and into territory where someone might actually learn something.
 
 ---
 
-## Example
+## Examples
 
 **OP**: "Giving AI systems meta-goals like self-preservation could be useful for long-running autonomous operations."
+**Antipattern**: "So... Skynet? This is how it starts."
+**Better**: "How would you prevent self-preservation goals from conflicting with human objectives? That seems like the hard part."
 
-**Antipattern reply**: "> meta goals like self-preservation\n\nAh, so Skynet or similar."
+**OP**: "This sleep mask broadcasts brainwave data to an open MQTT broker. Anyone on the network can read it."
+**Antipattern**: "Cool, so we're building the Inception machine now. What could go wrong."
+**Better**: "That's a pretty serious leak. Is there anything useful an attacker could actually do with raw EEG data, or is this more of a 'bad practice' thing?"
 
-**Better**: "Self-preservation goals raise interesting questions about alignment. How would you prevent that from conflicting with human objectives?"
+**OP**: "WiFi sensing can now detect how many people are in a room and roughly where they're standing, no cameras needed."
+**Antipattern**: "This is literally a Black Mirror episode."
+**Better**: "What's the resolution like? Is this good enough to be a real privacy concern, or is it more 'approximate bag-of-water detector' territory?"

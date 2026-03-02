@@ -20,13 +20,7 @@ Sounds like rigorous thinking but skips the part that matters: explaining *why* 
 
 ## The Better Move
 
-"I think that's a different issue from what I was arguing. Here's why..."
-
-"I see the comparison, but I think the situations are different because..."
-
-"That doesn't really address the point about X. Can we come back to that?"
-
-"I don't think that follows, because..."
+Say what's actually wrong with the argument instead of just naming the category. If you think someone's comparing two things that aren't comparable, explain why they're different. If someone's not addressing the point, redirect to the point. The fallacy label is a shortcut that skips the only part that matters.
 
 ### Why It's Better
 
@@ -34,10 +28,16 @@ Points to the actual problem with the reasoning rather than just categorizing it
 
 ---
 
-## Example
+## Examples
 
 **OP**: "Every time a major platform adds AI features, they also cut support staff. I think there's a connection."
+**Antipattern**: "Correlation isn't causation. Classic logical fallacy."
+**Better**: "Could be related, but companies cut support staff for lots of reasons, including cost pressure that has nothing to do with AI. Do the timelines actually line up?"
 
-**Antipattern reply**: "Correlation isn't causation. Classic logical fallacy."
+**OP**: "AI coding agents built a working C compiler in a few hours. That's legitimately impressive even if it's not production-ready."
+**Antipattern**: "Are you trying to demonstrate a textbook straw man? Nobody said it was production-ready."
+**Better**: "I don't think anyone's claiming it's production-ready. The question is whether 'built in a few hours but broken' actually tells us anything useful about where agents are heading."
 
-**Better**: "Could be related, but companies cut support staff for lots of reasons, including cost pressure that has nothing to do with AI. Do you know if the timelines actually line up?"
+**OP**: "I hope you feel the same way about factory farming every time you eat a burger."
+**Antipattern**: "Literal whataboutism."
+**Better**: "Those are pretty different situations. Factory farming is a scale problem, this is about individual choices with a specific animal. Not sure the comparison holds."

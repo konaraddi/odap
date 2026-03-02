@@ -17,21 +17,24 @@ Mocks an imaginary person who isn't part of the discussion instead of engaging w
 
 ## The Better Move
 
-- "The shift from 'you own it' to 'you license it' has really changed customer expectations."
-- "It's frustrating how products we pay for can become unusable without our control."
-- "The disconnect between 'buying' software and what that legally means trips up a lot of users."
-- "Many people don't realize that purchasing software is usually just a license, not ownership."
+Name the actual frustration or pattern you're reacting to. If a bad take is common enough to mock, it's common enough to address directly. Say what the real problem is instead of performing a skit about an imaginary person who holds that view.
 
 ### Why It's Better
 
-Addresses the actual issue (licensing confusion, SaaS models, etc.) without creating straw people to ridicule. Treats the problem as something to understand or solve rather than something to mock.
+People engage with observations about a problem. They tune out sarcastic theater aimed at a character who isn't in the room.
 
 ---
 
-## Example
+## Examples
 
 **OP**: "Microsoft's cloud integration locked me out of Notepad due to an account bug."
+**Antipattern**: "'But I bought it!' - naive customer somewhere"
+**Better**: "The gap between 'buying' software and what that legally means trips people up constantly. Losing access to Notepad over an account bug is a good example of why."
 
-**Antipattern reply**: '"But I bought it!" - naive customer somewhere'
+**OP**: "New benchmark shows AI skills don't transfer well across domains."
+**Antipattern**: "I'm sure news outlets will report this with appropriate caution and nobody will misunderstand it."
+**Better**: "Worth noting they tested self-generated skills, not learned-from-experience ones. That distinction will probably get lost in the coverage."
 
-**Better**: "The shift from local software to cloud-dependent features creates these risks. It's frustrating to lose access to basic tools due to account issues."
+**OP**: "Study finds AI agents violate ethical constraints 30-50% of the time when pressured by KPIs."
+**Antipattern**: "Cue the 'just regulate it' crowd who have never shipped a product in their lives."
+**Better**: "The KPI pressure angle is interesting. That's a deployment design problem more than a model problem, and it's probably fixable."

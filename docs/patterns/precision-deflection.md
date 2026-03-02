@@ -16,21 +16,24 @@ Fixates on exact phrasing rather than clarifying the actual idea or addressing w
 
 ## The Better Move
 
-- "I think Racket is excellent. My point was more about Guile's specific weaknesses in [area]."
-- "To clarify, I see Racket as further ahead in [specific way]. Here's what I meant..."
-- "I can see how that read as dismissive. What I meant was..."
-- "Fair paraphrase, though I'd add this nuance: [explain the distinction that matters]."
+If the paraphrase is close enough, skip the correction and restate your actual point. The goal is to be understood, not to win a quoting contest. If the difference in wording genuinely matters, explain why it matters instead of just flagging that the words were wrong.
 
 ### Why It's Better
 
-Treats the paraphrase as an opportunity to clarify rather than a mistake to correct. Explains what you actually meant and why the distinction matters, which helps both of you understand each other better.
+Restating what you meant moves the conversation forward. Correcting what someone typed just moves it sideways into a dispute about phrasing that neither of you cares about.
 
 ---
 
-## Example
+## Examples
 
 **OP**: "Sounds like you're writing off Racket compared to Guile."
+**Antipattern**: "I wrote that Guile 'greatly lags' Racket."
+**Better**: "Actually the opposite. I think Racket is excellent, just more mature. Guile is catching up but still lags in tooling and libraries."
 
-**Antipattern reply**: "I wrote that Guile 'greatly lags' Racket."
+**OP**: "So you're saying monopolies are fine as long as the product is good?"
+**Antipattern**: "That's not what I quite meant."
+**Better**: "Not quite. My point is that competition is good for consumers, but having fewer players isn't automatically bad if there's still pressure to improve."
 
-**Better**: "Actually the opposite - I think Racket is excellent, just more mature than Guile. Guile is catching up but still lags in tooling and libraries."
+**OP**: "You're saying this framework is dead."
+**Antipattern**: "I said 'concerning,' not 'dead.' Please read more carefully."
+**Better**: "I wouldn't say dead. The release cadence has slowed down a lot, which worries me, but there's still an active community around it."

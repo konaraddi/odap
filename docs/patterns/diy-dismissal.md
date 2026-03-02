@@ -20,24 +20,24 @@ Sets an high bar for participation: you can only have opinions about things you'
 
 ## The Better Move
 
-"Interesting idea. What would that look like in practice?"
-
-"I think there are trade-offs the current design handles well, like..."
-
-"Fair point. I'd want to see how that works with the existing constraints."
-
-"That's a real gap but not a priority for me right now."
+Engage with the substance of the critique instead of questioning whether the person has earned the right to make it. You can defend a design choice, explain trade-offs, or even say it's not a priority. Just respond to what was actually said.
 
 ### Why It's Better
 
-Treats the suggestion as worth discussing on its merits. Engages with what was actually said rather than questioning whether the person has earned the right to say it.
+Treats the suggestion as worth discussing on its merits. Keeps the conversation on the idea rather than turning it into a test of who's willing to build what.
 
 ---
 
-## Example
+## Examples
 
 **OP**: "I wish city-builder games explored alternatives to car-centric design."
-
-**Antipattern reply**: "If you want your perfect city builder, go ahead and make one. It's easier than ever."
-
+**Antipattern**: "If you want your perfect city builder, go ahead and make one. It's easier than ever."
 **Better**: "There are some interesting mods for that, but yeah, a game built around it from the start could be really compelling."
+
+**OP**: "The search in this app is basically unusable once you have more than a few hundred items."
+**Antipattern**: "It's open source. Feel free to submit a PR if you think you can do better."
+**Better**: "Yeah, it doesn't scale great. There's an open issue about switching to a trie-based index but nobody's picked it up yet."
+
+**OP**: "Standardized clothing sizes would save everyone a lot of hassle."
+**Antipattern**: "If you want to fix it, start your own clothing brand. Put your money where your mouth is."
+**Better**: "The problem is that brands use sizing as part of their identity. Any standard would have to get buy-in from companies that benefit from the current mess."

@@ -20,24 +20,24 @@ Frames correction as humiliation and makes the other person defensive before the
 
 ## The Better Move
 
-"Worth noting that..."
-
-"One thing to consider: ..."
-
-"From what I've seen, ..."
-
-"Actually, the data shows..."
+Just state the correction or the fact. Drop the windup entirely and let the information do the work. If you have evidence that contradicts someone, leading with it directly is both more respectful and more persuasive than telegraphing that they're about to be wrong.
 
 ### Why It's Better
 
-Gets to the substance without the performance. Lets the information stand on its own merit, making it easier for someone to update their view without feeling humiliated.
+People actually absorb corrections when they don't have to process a put-down first. Removing the preamble turns a potential confrontation into a straightforward exchange of information.
 
 ---
 
-## Example
+## Examples
 
 **OP**: "I think the policy will reduce costs significantly."
+**Antipattern**: "You will be disappointed to know that similar policies in other states increased costs by 15%."
+**Better**: "Similar policies in other states increased costs by 15%. What makes this version different?"
 
-**Antipattern reply**: "You will be disappointed to know that similar policies in other states increased costs by 15%."
+**OP**: "First Harry Potter book came out 30 years ago, it might be public domain by now."
+**Antipattern**: "It would be incredibly naive to assume that a moneymaker like that is public domain."
+**Better**: "Copyright lasts way longer than 30 years, especially for something still actively earning. It won't be public domain for decades."
 
-**Better**: "Worth noting that similar policies in other states increased costs by 15%. What makes this version different?"
+**OP**: "Our house is over 100 years old and still standing. American construction holds up fine."
+**Antipattern**: "I'm afraid you're going to find out that asphalt shingles last about 15 years before they start leaking. Good luck with that."
+**Better**: "Asphalt shingles only last about 15 years before they risk leaking. Ceramic tile lasts 75-100. The framing lasts, but the materials on top usually don't."

@@ -20,13 +20,7 @@ Sounds like standing firm under pressure but reframes disagreement as persecutio
 
 ## The Better Move
 
-If downvoted, consider whether the point could be clearer or better supported.
-
-Edit to add sources or clarify, not to complain: "EDIT: Adding source for this claim: [link]"
-
-Respond to specific criticisms in replies instead of making it about votes.
-
-Or simply leave it. Not every comment needs defending, accept downvotes with grace.
+If the point matters enough to defend, strengthen the argument itself. Add a source, clarify the reasoning, or respond to the actual criticisms in the replies. If nobody's engaging substantively, just leave it. Treating downvotes as the story turns the comment into a grievance post instead of a contribution.
 
 ### Why It's Better
 
@@ -34,10 +28,16 @@ Focuses on improving the argument rather than prosecuting the audience. Treats d
 
 ---
 
-## Example
+## Examples
 
-**Original comment**: "This policy will backfire because [argument]." [Gets downvoted]
+**OP**: "This policy will backfire because [argument]." *[Gets downvoted]*
+**Antipattern**: "EDIT: Getting downvoted for stating facts. Stay mad, Reddit."
+**Better**: "EDIT: Since a few people are pushing back, here's the analysis I'm basing this on: [link]."
 
-**Antipattern**: "This policy will backfire because [argument]. EDIT: Getting downvoted for stating facts. Stay mad, Reddit."
+**OP**: "Serious question, why is this on the front page? We all know about this tool and most of us chose not to use it."
+**Antipattern**: "EDIT: Instead of downvoting, just answer the question. I'm guessing it's the same sock accounts that upvoted the post."
+**Better**: "Genuinely curious what's drawing people to this now. Did something change recently, or is there a use case I'm not seeing?"
 
-**Better**: "This policy will backfire because [argument]. EDIT: For those asking for evidence, here's the analysis I'm basing this on: [link]. Happy to discuss specific concerns."
+**OP**: "I don't think this approach scales. The overhead kills you past a few thousand concurrent users."
+**Antipattern**: "I do not understand the downvotes. This is basic systems knowledge. The downvotes are from people who've never run anything at scale."
+**Better**: "To be more specific: at ~5k connections we saw latency spike 3x with this pattern. Switched to [alternative] and it flattened out. Happy to share the benchmarks."

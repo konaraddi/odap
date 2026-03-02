@@ -20,24 +20,24 @@ Turns agreement into validation theater and suggests the conversation is about b
 
 ## The Better Move
 
-"Yes, and I think this connects to..."
-
-"Agreed. What's interesting is..."
-
-"That matches what I've seen, especially around..."
-
-"Good point. This also explains why..."
+If you agree, say why or build on the idea. Agreement is a starting point, not a finish line. Add what you've seen, ask what follows, or push the point further.
 
 ### Why It's Better
 
-Builds on the idea instead of celebrating validation. Treats agreement as a starting point for deeper exploration, keeping the focus on substance rather than scorekeeping.
+Keeps the conversation moving forward instead of turning it into a scoreboard. People stick around for discussions that go somewhere, not ones that end with applause.
 
 ---
 
-## Example
+## Examples
 
 **OP**: "The real issue with this policy is that it doesn't account for regional differences."
+**Antipattern**: "Ding ding ding! Finally someone gets it."
+**Better**: "Yeah, the regional piece is huge. Implementation timelines vary wildly depending on local infrastructure too."
 
-**Antipattern reply**: "Ding ding ding! Finally someone gets it."
+**OP**: "Dark patterns in tipping screens are getting out of hand. The default shouldn't be 25% for counter service."
+**Antipattern**: "This. So much this. Somebody finally said it."
+**Better**: "The 0% option being buried three taps deep is the real problem. At least let people skip without feeling like they kicked a puppy."
 
-**Better**: "Agreed. What's interesting is how those regional differences also affect implementation timelines."
+**OP**: "AI tools are useful but they don't replace understanding the fundamentals."
+**Antipattern**: "Bingo! Exactly what I've been saying for months."
+**Better**: "That matches what I've seen. The people getting the most out of AI tools are the ones who already know what good output looks like."

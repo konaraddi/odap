@@ -20,24 +20,24 @@ Sounds like promoting critical thinking but dodges the burden of supporting clai
 
 ## The Better Move
 
-"Here's a source that covers this: [link]."
-
-"This article explains it well: [link]. Key point is [brief summary]."
-
-"I first learned about this from [source]. The main finding was..."
-
-"Fair question. The evidence comes from [brief explanation or link]."
+If you're confident enough to make a claim, back it up. Drop a link, name a source, or summarize the key point. It takes thirty seconds and it's the difference between contributing to a conversation and shutting one down.
 
 ### Why It's Better
 
-Backs up claims with actual sources instead of deflecting. Shows confidence in the argument and respects that people asking for evidence aren't necessarily lazy, they're being appropriately skeptical.
+People asking for evidence are doing exactly what they should be doing. Meeting that with a source instead of a brushoff shows you actually stand behind what you said.
 
 ---
 
-## Example
+## Examples
 
 **OP**: "Studies show this approach is ineffective."
+**Antipattern**: "Do your own research. I'm not going to spoon-feed you basic facts."
+**Better**: "This meta-analysis found limited effectiveness: [link]. The main issue was sample size in most of the studies."
 
-**Antipattern reply**: "Do your own research. I'm not going to spoon-feed you basic facts."
+**OP**: "I don't think the pricing works out that way for flat-rate API plans."
+**Antipattern**: "Please go read how the plan actually works before commenting."
+**Better**: "It's counterintuitive but lower usage actually costs them more on flat-rate. Here's the breakdown: [link]."
 
-**Better**: "This meta-analysis found limited effectiveness: [link]. The main issue was sample size in most studies."
+**OP**: "Is there evidence that blue light filters actually help with sleep?"
+**Antipattern**: "Google exists. This has been studied to death, educate yourself."
+**Better**: "The research is pretty mixed. This Cochrane review is a decent starting point: [link]. Short version is the effect is small if it exists at all."

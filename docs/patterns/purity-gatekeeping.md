@@ -20,24 +20,24 @@ Treats modern abstractions as shortcuts for the incompetent rather than legitima
 
 ## The Better Move
 
-"What drove the decision to use that stack over alternatives?"
-
-"Curious about the trade-offs here. How did performance compare to native?"
-
-"I've found value in lower-level approaches, but I can see why teams choose this for faster iteration."
-
-"Different abstractions make sense for different constraints. What were the biggest factors?"
+Ask about the constraints that shaped the decision instead of judging the decision itself. Every tool choice involves trade-offs, and the interesting conversation is about which trade-offs matter for a given situation, not whether someone passed your personal purity test.
 
 ### Why It's Better
 
-Acknowledges that tool choices involve trade-offs rather than skill deficits. Opens discussion about actual constraints and goals instead of asserting a single correct approach.
+Treats the other person as someone who made a considered decision rather than someone who took a shortcut out of ignorance. That's where you actually learn something.
 
 ---
 
-## Example
+## Examples
 
 **OP**: "We shipped the desktop app using Electron to reuse our web codebase and move faster."
+**Antipattern**: "Electron apps are bloated garbage. Real developers build native apps that don't eat 500MB of RAM."
+**Better**: "How's the performance been in practice? Electron gets a bad rap but it depends a lot on what the app actually does."
 
-**Antipattern reply**: "Electron apps are bloated garbage. Real developers build native apps that don't eat 500MB of RAM."
+**OP**: "We went with Tailwind for the redesign and it's been great for velocity."
+**Antipattern**: "Using Tailwind just means your team never learned proper CSS."
+**Better**: "What sold you over plain CSS or something like CSS modules? Curious if the speed gain holds up as the project grows."
 
-**Better**: "What drove the decision to use Electron over native? I'm curious how you weighed bundle size and performance against development speed."
+**OP**: "New gopher here. What library are people using for HTTP routing in Go?"
+**Antipattern**: "You should just use the standard library. It's always worked fine. People who reach for libraries don't understand the language."
+**Better**: "The standard library covers a lot, but chi and gorilla/mux are solid if you want middleware chaining out of the box. Depends on how much routing logic you need."

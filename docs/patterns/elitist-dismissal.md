@@ -17,21 +17,24 @@ Dismisses both the technology and the people using it without exploring why it m
 
 ## The Better Move
 
-- "I wonder what drives adoption of these tools. Is it convenience, or genuine value?"
-- "The enthusiasm seems outsized compared to the utility I've seen. What do people find valuable about it?"
-- "I'm skeptical about the quality, but clearly it's meeting some need. What's working for users?"
-- "There's definitely a market for this. I'm curious if users are getting lasting value or just initial excitement."
+Engage with the substance of what people are choosing and why, rather than framing their choices as a character flaw. State your own preference or criticism concretely. You can be just as skeptical without making it about the intelligence of everyone who disagrees.
 
 ### Why It's Better
 
-Treats adoption as a genuine question worth exploring rather than evidence of poor taste. Creates space to understand different perspectives and use cases while still leaving room for skepticism.
+Keeps the door open to actual discussion about tradeoffs. People respond to specific critiques; they tune out anyone who opens with contempt for their judgment.
 
 ---
 
-## Example
+## Examples
 
-**OP**: "LocalGPT has over 10,000 stars on GitHub already."
+**OP**: "Notion just hit 100 million users. It's become the go-to for project management."
+**Antipattern**: "Average users don't know what quality looks like. Anyone serious uses something with actual power under the hood."
+**Better**: "I find it too slow for large projects, but it clearly nails the onboarding experience in a way other tools don't. Curious if heavy users hit the same walls I did."
 
-**Antipattern reply**: "The masses yearn for slop."
+**OP**: "Our team switched to AI-assisted code review and it's catching bugs we used to miss."
+**Antipattern**: "Real developers don't need AI to write quality code. The masses just yearn for slop."
+**Better**: "What kinds of bugs is it catching? I've found it useful for spotting simple stuff but useless for anything architectural."
 
-**Better**: "The enthusiasm seems outsized. I'm curious if users are finding lasting value or if it's just initial AI hype."
+**OP**: "TikTok-style short videos are now the most consumed content format worldwide."
+**Antipattern**: "This is what happens when you design for the lowest common denominator. People have no attention span left."
+**Better**: "The format works for some things and is terrible for others. I've actually learned solid cooking techniques from 60-second videos. The algorithm just buries anything that requires depth or long attention spans."

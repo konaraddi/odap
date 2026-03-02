@@ -61,45 +61,45 @@ Explain what this pattern does to the conversation and why people fall into it.
 - Length: 2-3 sentences max
 
 ### 4. The Better Move
-Provide 3-4 concrete alternative phrasings that accomplish the same goal constructively.
+1-2 sentences of prose explaining the **principle** - the shift in thinking or approach someone should make. This is not sample dialogue. It's the transferable idea that applies in any context.
 
 **Guidelines:**
-- Make alternatives genuinely useful, not preachy
-- Show variety in approach
-- Keep them natural-sounding
-- Focus on what TO say, not just what NOT to say
+- State the move plainly and directly
+- No hedging or filler
+- Should be memorable enough that someone could apply it without examples
 
 ### 5. Why It's Better
-Brief explanation of why the alternatives are more effective.
+Brief explanation of why the alternative approach is more effective.
 
 **Guidelines:**
 - Connect to the conversation's goals
 - Be concise - 1-2 sentences
 - Focus on practical benefits
 
-### 6. Real Example
-At the bottom of each pattern, include a realistic example showing:
-- Original comment/topic
-- Antipattern response
-- Better alternative response
+### 6. Examples
+2-3 full exchanges at the bottom of each pattern, each showing OP / Antipattern / Better.
 
 **Guidelines:**
-- Can be real (anonymized) or realistic hypothetical
-- Keep it brief and relatable
-- Show clear contrast between antipattern and alternative
-- Use a neutral topic when possible
+- Exchanges should feel like real internet comments, not scripted dialogue
+- The "Better" response can be blunt, casual, or skeptical - it just engages with substance
+- No therapist-speak ("I appreciate your perspective", "That's a valid point")
+- Keep each line to 1-2 sentences - real comments are brief
+- Topics should be varied and neutral (tech, science, everyday things)
+- Can draw from real comments in `digests/` (anonymized and condensed)
 
 **Example format:**
 ```markdown
 ---
 
-## Example
+## Examples
 
-**OP**: "New study shows that regular exercise improves mood."
+**OP**: "New study shows that getting 7-8 hours of sleep improves cognitive performance."
+**Antipattern**: "Well duh, anyone could have told you that."
+**Better**: "Makes sense. Were there any surprising findings about sleep quality vs. quantity?"
 
-**Antipattern reply**: "Well duh, anyone could have told you that."
-
-**Better**: "Makes sense. Have there been any surprising findings about which types of exercise work best?"
+**OP**: "Research confirms that exercise reduces anxiety."
+**Antipattern**: "We didn't need a study to know this."
+**Better**: "Good to have data backing up the intuition. Was there a threshold where it stopped helping?"
 ```
 
 ## Tone & Voice Guidelines
@@ -129,9 +129,9 @@ At the bottom of each pattern, include a realistic example showing:
 
 - **The Pattern**: 1 sentence description + 3-4 example quotes
 - **Why It's Unproductive**: 2-3 sentences
-- **The Better Move**: 3-4 alternative quotes
+- **The Better Move**: 1-2 sentences of prose (the principle, not sample quotes)
 - **Why It's Better**: 1-2 sentences
-- **Real Example**: 3-4 lines total
+- **Examples**: 2-3 full exchanges (OP / Antipattern / Better)
 
 Total page length: Aim for something readable in under 60 seconds.
 

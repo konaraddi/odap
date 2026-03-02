@@ -17,21 +17,24 @@ Derails conversation from the substantive point to an irrelevant precision issue
 
 ## The Better Move
 
-- "Different desktop environments (GNOME, KDE, etc.) have different development teams. Which one gave you trouble?"
-- "Fair point about the tools, though I'd note it's technically a transpiler. Does that change your argument?"
-- "Banks is great. Are there contemporary authors in that same tier?"
-- "The Linux kernel vs. full distribution distinction matters in some contexts. What's your concern about the desktop environment?"
+Address the actual substance first. If the technical distinction genuinely matters, mention it briefly and then get back to the point. If it doesn't matter, just skip it and engage with what they clearly meant.
 
 ### Why It's Better
 
-Either addresses the actual substance first and mentions the technicality separately, or explains why the technical detail actually matters to the discussion. Shows you understood the point even if the wording was imprecise.
+Shows you understood the argument even if the wording was imprecise. People respond to engagement with their point; they tune out when someone sidesteps it for a terminology correction.
 
 ---
 
-## Example
+## Examples
 
 **OP**: "The Linux desktop creators should fix these bugs before expecting people to switch."
-
-**Antipattern reply**: "Who are these 'creators'? Can you point to them? Is there a legal entity?"
-
+**Antipattern**: "Who are these 'creators'? Can you point to them? Is there a legal entity?"
 **Better**: "Fair criticism. Different desktop environments have different teams (GNOME, KDE, etc.). Which one blocked you?"
+
+**OP**: "Minecraft's renderer is just a voxel engine with very primitive lighting, so the Vulkan switch should be straightforward."
+**Antipattern**: "And by voxels you mean triangles."
+**Better**: "The rendering is simpler than most engines, yeah. The bigger question is whether the mod ecosystem can handle a graphics API change this big."
+
+**OP**: "This new Flutter project is basically a game engine for mobile apps."
+**Antipattern**: "'Game engine' is a misnomer. It's more like an ECS-based scene rendering engine which can be used for games or advanced UI."
+**Better**: "It borrows a lot from game engine architecture, which is what makes the performance interesting. Have you tried it with any heavy UI layouts?"

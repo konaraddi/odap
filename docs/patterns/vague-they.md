@@ -20,24 +20,24 @@ Obscures the actual target of criticism, making it impossible to evaluate the cl
 
 ## The Better Move
 
-"A lot of commenters in that thread said..."
-
-"The official statement from [specific organization] claims..."
-
-"Some people hold this view, though polling suggests it's around 15% of the group."
-
-"The leaders of [specific movement] have argued..."
+Name who you actually mean. Even a rough label like "most commenters in that thread" or "the top three browser vendors" forces you to check whether the claim holds up once the target is visible.
 
 ### Why It's Better
 
-Names the actual group being discussed, making claims verifiable. Allows others to assess whether the characterization is fair and keeps the conversation grounded in specifics rather than tribal signaling.
+Specific targets make claims testable. Once the group is named, everyone can evaluate whether the characterization is fair instead of just vibing with the frustration.
 
 ---
 
-## Example
+## Examples
 
 **OP**: "I'm tired of how politicians ignore climate science."
+**Antipattern**: "The funny thing is they all claim to follow the science but then they do nothing about it."
+**Better**: "Plenty of legislators say they accept the science. But voting records show only about 40% have backed concrete emissions policies, so the gap is real."
 
-**Antipattern reply**: "The funny thing is they all claim to follow the science but then they do nothing about it."
+**OP**: "AI keeps getting better but the critics won't acknowledge it."
+**Antipattern**: "They never surrender. Always moving targets."
+**Better**: "Which critics? The 'LLMs will never write code' crowd has mostly gone quiet. The current skeptics are asking different questions about reliability."
 
-**Better**: "Many legislators say they accept climate science, but voting records show only about 40% have supported concrete emissions policies."
+**OP**: "Malls and airports are tracking people through their phones now."
+**Antipattern**: "They say it's for public safety but they obviously use it for marketing too."
+**Better**: "In the EU, building individual profiles without consent is illegal, but aggregate foot-traffic analytics are fair game. The question is whether anyone's actually enforcing the line."

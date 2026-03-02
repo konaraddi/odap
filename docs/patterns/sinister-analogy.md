@@ -20,24 +20,24 @@ Sounds historically informed but substitutes association for argument. Drawing a
 
 ## The Better Move
 
-"I see the parallel you're drawing, but I think the key difference is..."
-
-"Collaboration can go wrong, sure. What specifically concerns you here?"
-
-"There are real risks with this approach. The one I'd focus on is..."
-
-"That comparison is a stretch. The actual concern I'd raise is..."
+If a historical parallel actually applies, explain the specific mechanism that connects it to the current situation. Name the risk in your own words instead of letting a dark reference carry the argument.
 
 ### Why It's Better
 
-Raises specific concerns rather than letting a loaded reference do the work. If there's a genuine lesson from history, it's worth spelling out instead of just dropping a name.
+Spelling out the actual concern gives people something to engage with. A named risk can be discussed and evaluated; a sinister comparison can only be accepted or rejected.
 
 ---
 
-## Example
+## Examples
 
 **OP**: "Humans have always worked with tools and assistants. Even Einstein relied heavily on collaborators."
-
-**Antipattern reply**: "And Stalin had Lysenko."
-
+**Antipattern**: "And Stalin had Lysenko."
 **Better**: "True, but the dynamic changes when the 'assistant' is opaque and controlled by a single company. The collaboration analogy has limits."
+
+**OP**: "The rate of progress here is similar to what we saw with SpaceX. Skeptics kept moving the goalpost."
+**Antipattern**: "This is indiscernible from the Theranos conversation. For every grifter who delivers, how many fail?"
+**Better**: "SpaceX had publicly verifiable milestones though. What's the equivalent here? I'd feel better if benchmarks were independently reproduced."
+
+**OP**: "This new urban planning tool uses AI to optimize traffic flow across the whole city grid."
+**Antipattern**: "Sounds a lot like what Enron promised about energy markets. Centralized optimization by a black box."
+**Better**: "Citywide optimization sounds great in theory, but what happens when the model gets a bad input? I'd want to know the failure modes before rolling it out."

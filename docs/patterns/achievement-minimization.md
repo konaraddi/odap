@@ -17,21 +17,24 @@ Frames discussion around what something isn't rather than what it is. The minimi
 
 ## The Better Move
 
-- "The engineering is impressive, though I'd be interested in seeing this approach applied to deep space missions."
-- "Building on existing software libraries is smart. The real value seems to be in how it combines them."
-- "Fair point about incremental progress. What would the next breakthrough look like to you?"
-- "It's X but with a UX that caters to nontechnical folks, making X more accessible."
+Acknowledge what was accomplished, then redirect to the interesting questions it opens up. You can still be critical or push for more, just engage with the substance rather than dismissing the category.
 
 ### Why It's Better
 
-Acknowledges what was accomplished while still making room for critical discussion. Keeps the conversation focused on substance rather than judgment about whether something is "good enough."
+Keeps the conversation focused on substance rather than judgment about whether something is "good enough." You still get to raise your point, but without shutting down the discussion first.
 
 ---
 
-## Example
+## Examples
 
-**OP**: "The ISS has been continuously inhabited for 25 years - that's a remarkable achievement in orbital engineering."
-
-**Antipattern reply**: "We call it a 'space' station. It's a glorified LEO station."
-
+**OP**: "The ISS has been continuously inhabited for 25 years, which is a remarkable achievement in orbital engineering."
+**Antipattern**: "We call it a 'space' station. It's a glorified LEO station."
 **Better**: "True, though maintaining anything in space for 25 years is impressive. I do wish we were more ambitious about going beyond LEO."
+
+**OP**: "We built a new internal tool using a few open-source libraries. It's cut our deploy time in half."
+**Antipattern**: "That's merely a wrapper around existing libraries."
+**Better**: "Building on existing libraries is smart. The real value seems to be in how it combines them. What was the biggest bottleneck before?"
+
+**OP**: "This new battery tech improves energy density by 15% over current designs."
+**Antipattern**: "It's only an incremental improvement, nothing groundbreaking."
+**Better**: "15% is significant if it compounds over a few generations. Do they have a roadmap for where this chemistry tops out?"

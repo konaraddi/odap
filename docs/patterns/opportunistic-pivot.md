@@ -6,10 +6,10 @@ title: Opportunistic Pivot
 
 Taking a minor observation and forcing a connection to an unrelated broader claim or pet topic, hijacking the discussion.
 
-- "And this is exactly why AI is taking over. Most people think they are more capable than they actually are."
-- "This is why we need better CS education."
-- "Perfect example of why regulation is needed."
-- "Yet another reason the web is dying."
+- OP: "Few people read past the issue title before commenting." Reply: "And this is exactly why AI is taking over."
+- OP: "This library simplifies Vulkan descriptors." Reply: "This is why we need better CS education."
+- OP: "Our city added protected bike lanes downtown." Reply: "Perfect example of why regulation is needed."
+- OP: "I built a pen plotter that draws generative art." Reply: "Yet another reason the web is dying."
 
 ## Why It's Unproductive
 
@@ -17,21 +17,24 @@ Hijacks a specific discussion to promote a pre-existing thesis that isn't actual
 
 ## The Better Move
 
-- "Yeah, it's surprising how often people miss important details in issue threads."
-- "The issue body has good context. Worth reading the full thread."
-- [Simply engage with the actual topic at hand]
-- "This connects to a broader pattern I've noticed: [explain actual connection]."
+Respond to the actual topic instead of using it as a springboard for your pet thesis. If you genuinely see a broader connection, spell out the reasoning instead of just asserting it.
 
 ### Why It's Better
 
-Stays focused on the specific discussion. If there's a genuine connection to broader patterns, explain the logical link rather than just asserting it exists.
+Keeps the conversation grounded in something specific. Broad claims without explained connections don't add insight, they just change the subject.
 
 ---
 
-## Example
+## Examples
 
 **OP**: "It's fascinating how few people read past the GitHub issue title before commenting."
+**Antipattern**: "And this is exactly why coding with AI is taking over. Most people think they are more capable than they actually are."
+**Better**: "Yeah, the issue body had important context about the limitation. You lose a lot by just skimming titles."
 
-**Antipattern reply**: "And this is exactly why coding with AI is not-so-slowly taking over. Most people think they are more capable than they actually are."
+**OP**: "This post walks through simplifying Vulkan's descriptor system."
+**Antipattern**: "This is why we need better CS education. People don't understand low-level graphics anymore."
+**Better**: "The descriptor pooling approach is interesting. Curious how it handles dynamic uniform buffers though."
 
-**Better**: "Yeah, the issue body has important details about the limitation. People miss a lot by just skimming titles."
+**OP**: "I hooked up Claude to my pen plotter and it drew some cool generative art."
+**Antipattern**: "And this is why this technology needs to be destroyed. We're automating away human creativity."
+**Better**: "The line work looks surprisingly clean. Did you constrain the output format or just let it generate raw SVG?"

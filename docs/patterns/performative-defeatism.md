@@ -20,24 +20,24 @@ Announces futility before anyone has attempted action, making sincere engagement
 
 ## The Better Move
 
-"What can we actually do about this?"
-
-"Has anyone tried organizing around this issue before? What worked?"
-
-"This seems important. Where would donations or pressure actually help?"
-
-"I'm genuinely asking: what would meaningful action look like here?"
+Channel the frustration into an actual question or next step. If you think nothing will change, say what you think would need to change and ask whether anyone has tried it. Cynicism that stops at the prediction is just decoration.
 
 ### Why It's Better
 
-Channels frustration toward possibility instead of resignation. Treats the conversation as a starting point rather than theater, creating space for people who do want to act.
+Turns resignation into a conversation starter. People who actually want to do something now have a thread to respond to instead of a wall of fatalism.
 
 ---
 
-## Example
+## Examples
 
 **OP**: "Local company dumping waste into river faces no penalties after settlement."
+**Antipattern**: "We'll all upvote this today from the comforts of our couch then forget about it tomorrow. Nothing will change."
+**Better**: "Are there local environmental groups already on this? Settlements like these usually have public comment periods before they're finalized."
 
-**Antipattern reply**: "We'll all upvote this today from the comforts of our couch then forget about it tomorrow. Nothing will change."
+**OP**: "New report shows tech companies collecting far more biometric data than previously disclosed."
+**Antipattern**: "Cool, another thing for us to care about for a week before the next outrage cycle. Nobody will do anything."
+**Better**: "Has the FTC said anything about this? Genuinely curious whether the existing consent frameworks even cover this kind of collection."
 
-**Better**: "This seems important. What can we actually do about this? Are there local environmental groups working on it?"
+**OP**: "Study finds social media algorithms actively suppress local news in favor of engagement bait."
+**Antipattern**: "People will share this, feel good about themselves, and do absolutely nothing. Same as always."
+**Better**: "This tracks with what I've noticed. Are there any browser extensions or feed tools that actually fix this, or is the only real option just subscribing directly to local outlets?"

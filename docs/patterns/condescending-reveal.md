@@ -17,21 +17,24 @@ Treats disagreement as ignorance rather than a difference in perspective or prio
 
 ## The Better Move
 
-- "Actually [the thing] works differently than you might expect. Here's what I mean..."
-- "I see your concern about [X]. There's a nuance here that's worth knowing: [information]."
-- "That's a common misconception. [The actual situation], though I get where you're coming from."
-- "Your point about [X] makes sense, but [relevant information that changes the picture]."
+Skip the buildup and just share what you know. If someone's wrong about something, the correction lands better when you lead with the information itself rather than performing a reveal. You can still disagree or correct, just drop the "brace yourself" framing and engage directly.
 
 ### Why It's Better
 
-Shares the information without the condescending framing. Acknowledges the other person's concern as legitimate while adding your perspective, creating space for actual discussion rather than correction.
+Puts the focus on the substance instead of on the social dynamic of who knows more. The other person hears the information rather than the condescension.
 
 ---
 
-## Example
+## Examples
 
 **OP**: "IDK how everyone else feels about it, but a non-deterministic 'compiler' is the last thing I need."
+**Antipattern**: "I may have bad news for you on how compilers typically work."
+**Better**: "Modern compilers already have non-deterministic aspects (optimization heuristics, instruction scheduling). The concern with LLMs is probably more about unpredictable correctness than non-determinism per se."
 
-**Antipattern reply**: "I may have bad news for you on how compilers typically work."
+**OP**: "Your phone is definitely listening to your conversations. I talked about hiking boots with a friend and got ads for them an hour later."
+**Antipattern**: "Hate to break it to you, but that's not how any of this works."
+**Better**: "It's actually weirder than that. Your friend probably searched for boots, and the ad network inferred you two are connected. No mic needed when the behavioral data is that good."
 
-**Better**: "Modern compilers actually have some non-deterministic aspects (optimization heuristics, etc.), though I get your concern about LLM unpredictability being a different level."
+**OP**: "We should just rewrite our CUDA kernels in HIP so we're not locked into Nvidia."
+**Antipattern**: "Someone should probably tell you what HIP actually is before you go down that road."
+**Better**: "HIP covers the runtime API side, but the kernels are the hard part since the architectures are genuinely different. Hipify helps but it's not a drop-in swap. Depends on how much custom kernel work you have."
