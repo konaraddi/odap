@@ -16,7 +16,7 @@ Dismissing someone's surprise, concern, or outrage by implying they're naive for
 
 ### Why It's Unproductive
 
-Even predictable things are worth discussing. Framing someone's reaction as a sign of inexperience turns the conversation into a test of who's more world-weary instead of what should be done about the issue. It signals that being unsurprised is the same as having a response, which it isn't. The person raising the concern ends up defending their right to care rather than exploring the actual problem, and bystanders learn that expressing concern is a sign of low status.
+Even predictable things are worth discussing. Framing someone's reaction as a sign of inexperience turns the conversation into a test of who's more world-weary instead of what should be done about the issue. It signals that being unsurprised is the same as having a response, which it isn't. The person raising the concern ends up defending their right to care rather than exploring the actual problem, and bystanders learn that expressing concern implies being naive.
 
 ## The Better Move
 

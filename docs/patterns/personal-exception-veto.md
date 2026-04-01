@@ -16,7 +16,7 @@ Dismissing a general claim or data by citing personal experience as if it overri
 
 ### Why It's Unproductive
 
-Personal experience is real data, but it's one data point. Treating "it hasn't happened to me" as proof that a widespread problem doesn't exist shuts down the conversation without engaging with the evidence. It's tempting because lived experience feels more concrete than statistics, and nobody wants to believe something they use and like has problems. But it puts the other person in an impossible position: they can't argue with your experience, and you haven't addressed theirs.
+Personal experience is real data, but it's one data point. Treating "it hasn't happened to me" as proof that a widespread problem doesn't exist shuts down the conversation without engaging with the evidence. It's tempting because lived experience feels more concrete than statistics, and nobody wants to believe something they use, and like, has problems. But it puts the other person in an impossible position: they can't argue with your experience, and you haven't addressed theirs.
 
 ## The Better Move
 

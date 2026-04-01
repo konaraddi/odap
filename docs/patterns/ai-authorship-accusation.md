@@ -2,8 +2,6 @@
 title: AI Authorship Accusation
 ---
 
-
-
 Dismissing someone's argument by accusing them of using AI to write it, rather than engaging with the content.
 
 "Was that written by ChatGPT? It reads like AI."
@@ -21,6 +19,8 @@ Whether a comment was written by a human, assisted by AI, or fully generated, th
 ## The Better Move
 
 Respond to what was said, not how it was written. If the argument is weak, say what's weak about it. If it's strong, engage with it. The origin of the words doesn't change whether the point is valid.
+
+Caveat: if it really is nonsensical AI slop then ignore or comment "AI slop". Don't waste time engaging with it.
 
 ### Why It's Better
 
