@@ -168,6 +168,21 @@ Total page length: Aim for something readable in under 60 seconds.
 4. Test the tone - would you feel okay being linked to this page?
 5. Ensure alternatives are concrete and genuinely helpful
 
+### Common Mistakes When Writing Patterns
+
+**Example quotes must be self-contained.** Each quote at the top of a pattern page is often the first thing a reader sees. It must make sense on its own without any surrounding context. If a quote only works when you already know what conversation it's responding to, it's not ready.
+
+- Bad: `"People said the same thing about calculators."` (Said what? About what?)
+- Good: `"Worried about AI-generated code? Should I credit my linter as a co-author too?"` (The concern and the dismissal are both in the quote.)
+
+**"Why It's Unproductive" should use concrete examples, not abstract ones.** Ground explanations in the same scenarios the quotes set up. Don't introduce new abstract comparisons the reader hasn't seen yet.
+
+**Keep language plain in "The Better Move."** Avoid corporate or technical phrasing. "Where the analogy breaks down" beats "the delta from what came before." Write it how you'd say it to a friend.
+
+**Read the whole page as a first-time visitor.** Someone may land on this page after being linked to it mid-argument. They're possibly defensive. Every sentence should hold up for that reader, not just for someone browsing the catalog.
+
+**Check existing patterns before writing.** There are 30+ patterns already. Read through the `docs/patterns/` directory to make sure the new pattern isn't already covered or a minor variation of something that exists.
+
 ### Naming Patterns
 - Use descriptive, memorable names
 - Keep them neutral, not judgmental
