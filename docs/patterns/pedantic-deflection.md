@@ -27,14 +27,14 @@ Shows you understood the argument even if the wording was imprecise. People resp
 
 ## Examples
 
-**OP**: "The Linux desktop creators should fix these bugs before expecting people to switch."<br>
-**Antipattern**: "Who are these 'creators'? Can you point to them? Is there a legal entity?"<br>
+**OP**: "The Linux desktop creators should fix these bugs before expecting people to switch."<br/>
+**Antipattern**: "Who are these 'creators'? Can you point to them? Is there a legal entity?"<br/>
 **Better**: "Fair criticism. Different desktop environments have different teams (GNOME, KDE, etc.). Which one blocked you?"
 
-**OP**: "Minecraft's renderer is just a voxel engine with very primitive lighting, so the Vulkan switch should be straightforward."<br>
-**Antipattern**: "And by voxels you mean triangles."<br>
+**OP**: "Minecraft's renderer is just a voxel engine with very primitive lighting, so the Vulkan switch should be straightforward."<br/>
+**Antipattern**: "And by voxels you mean triangles."<br/>
 **Better**: "The rendering is simpler than most engines, yeah. The bigger question is whether the mod ecosystem can handle a graphics API change this big."
 
-**OP**: "This new Flutter project is basically a game engine for mobile apps."<br>
-**Antipattern**: "'Game engine' is a misnomer. It's more like an ECS-based scene rendering engine which can be used for games or advanced UI."<br>
+**OP**: "This new Flutter project is basically a game engine for mobile apps."<br/>
+**Antipattern**: "'Game engine' is a misnomer. It's more like an ECS-based scene rendering engine which can be used for games or advanced UI."<br/>
 **Better**: "It borrows a lot from game engine architecture, which is what makes the performance interesting. Have you tried it with any heavy UI layouts?"

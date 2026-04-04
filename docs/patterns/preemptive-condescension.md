@@ -30,14 +30,14 @@ People actually absorb corrections when they don't have to process a put-down fi
 
 ## Examples
 
-**OP**: "I think the policy will reduce costs significantly."<br>
-**Antipattern**: "You will be disappointed to know that similar policies in other states increased costs by 15%."<br>
+**OP**: "I think the policy will reduce costs significantly."<br/>
+**Antipattern**: "You will be disappointed to know that similar policies in other states increased costs by 15%."<br/>
 **Better**: "Similar policies in other states increased costs by 15%. What makes this version different?"
 
-**OP**: "First Harry Potter book came out 30 years ago, it might be public domain by now."<br>
-**Antipattern**: "It would be incredibly naive to assume that a moneymaker like that is public domain."<br>
+**OP**: "First Harry Potter book came out 30 years ago, it might be public domain by now."<br/>
+**Antipattern**: "It would be incredibly naive to assume that a moneymaker like that is public domain."<br/>
 **Better**: "Copyright lasts way longer than 30 years, especially for something still actively earning. It won't be public domain for decades."
 
-**OP**: "Our house is over 100 years old and still standing. American construction holds up fine."<br>
-**Antipattern**: "I'm afraid you're going to find out that asphalt shingles last about 15 years before they start leaking. Good luck with that."<br>
+**OP**: "Our house is over 100 years old and still standing. American construction holds up fine."<br/>
+**Antipattern**: "I'm afraid you're going to find out that asphalt shingles last about 15 years before they start leaking. Good luck with that."<br/>
 **Better**: "Asphalt shingles only last about 15 years before they risk leaking. Ceramic tile lasts 75-100. The framing lasts, but the materials on top usually don't."

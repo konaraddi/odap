@@ -30,14 +30,14 @@ Takes the comparison seriously instead of weaponizing it. Pressing on the differ
 
 ## Examples
 
-**OP**: "Open source projects should require contributors to disclose when code is AI-generated."<br>
-**Antipattern**: "Should they also disclose when they used autocomplete? Or Stack Overflow? Where does it end?"<br>
+**OP**: "Open source projects should require contributors to disclose when code is AI-generated."<br/>
+**Antipattern**: "Should they also disclose when they used autocomplete? Or Stack Overflow? Where does it end?"<br/>
 **Better**: "What's the actual risk you're worried about? Copyright liability, code quality, something else? That would help figure out whether disclosure even solves it."
 
-**OP**: "I'm concerned about deepfakes being used to impersonate public figures."<br>
-**Antipattern**: "People have been doing impressions and Photoshopping images forever. This is nothing new."<br>
+**OP**: "I'm concerned about deepfakes being used to impersonate public figures."<br/>
+**Antipattern**: "People have been doing impressions and Photoshopping images forever. This is nothing new."<br/>
 **Better**: "The difference in scale and effort seems real though. A Photoshop job took skill and was usually obvious. What makes these harder to deal with?"
 
-**OP**: "Algorithmic feeds are shaping public opinion in ways we don't fully understand."<br>
-**Antipattern**: "Newspapers chose what to put on the front page too. Editors have always been gatekeepers."<br>
+**OP**: "Algorithmic feeds are shaping public opinion in ways we don't fully understand."<br/>
+**Antipattern**: "Newspapers chose what to put on the front page too. Editors have always been gatekeepers."<br/>
 **Better**: "Editorial curation is a real precedent, but it was one editor picking for a whole audience. Algorithmic feeds personalize at scale, which seems like a different dynamic. Is anyone studying the difference?"

@@ -30,14 +30,14 @@ Questions keep the door open. Declaring conclusions about something you didn't r
 
 ## Examples
 
-**OP**: "Here's a breakdown of why container startup times are slower than people think. [link to detailed benchmarks]"<br>
-**Antipattern**: "Didn't read the whole thing, but containers are fast enough for 99% of use cases. This is a non-issue."<br>
+**OP**: "Here's a breakdown of why container startup times are slower than people think. [link to detailed benchmarks]"<br/>
+**Antipattern**: "Didn't read the whole thing, but containers are fast enough for 99% of use cases. This is a non-issue."<br/>
 **Better**: "What workloads were they testing? If it's cold starts on serverless, that's a real pain point. For long-running services, probably doesn't matter."
 
-**OP**: "This paper found that open-plan offices reduce face-to-face interaction by 70%."<br>
-**Antipattern**: "I don't need to read a paper to know open offices are bad. Anyone who's worked in one could tell you that."<br>
+**OP**: "This paper found that open-plan offices reduce face-to-face interaction by 70%."<br/>
+**Antipattern**: "I don't need to read a paper to know open offices are bad. Anyone who's worked in one could tell you that."<br/>
 **Better**: "70% is a big number. Do they say what replaced the face-to-face interaction? More Slack messages, or just less communication overall?"
 
-**OP**: "New analysis suggests the proposed zoning changes would increase housing density by 30% over ten years."<br>
-**Antipattern**: "Not going to read another pro-density piece, but I can already tell they're ignoring infrastructure costs."<br>
+**OP**: "New analysis suggests the proposed zoning changes would increase housing density by 30% over ten years."<br/>
+**Antipattern**: "Not going to read another pro-density piece, but I can already tell they're ignoring infrastructure costs."<br/>
 **Better**: "Does the analysis account for the infrastructure costs that come with 30% more density? That's usually where these proposals fall apart."

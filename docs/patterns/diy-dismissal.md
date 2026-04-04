@@ -30,14 +30,14 @@ Treats the suggestion as worth discussing on its merits. Keeps the conversation 
 
 ## Examples
 
-**OP**: "I wish city-builder games explored alternatives to car-centric design."<br>
-**Antipattern**: "If you want your perfect city builder, go ahead and make one. It's easier than ever."<br>
+**OP**: "I wish city-builder games explored alternatives to car-centric design."<br/>
+**Antipattern**: "If you want your perfect city builder, go ahead and make one. It's easier than ever."<br/>
 **Better**: "There are some interesting mods for that, but yeah, a game built around it from the start could be really compelling."
 
-**OP**: "The search in this app is basically unusable once you have more than a few hundred items."<br>
-**Antipattern**: "It's open source. Feel free to submit a PR if you think you can do better."<br>
+**OP**: "The search in this app is basically unusable once you have more than a few hundred items."<br/>
+**Antipattern**: "It's open source. Feel free to submit a PR if you think you can do better."<br/>
 **Better**: "Yeah, it doesn't scale great. There's an open issue about switching to a trie-based index but nobody's picked it up yet."
 
-**OP**: "Standardized clothing sizes would save everyone a lot of hassle."<br>
-**Antipattern**: "If you want to fix it, start your own clothing brand. Put your money where your mouth is."<br>
+**OP**: "Standardized clothing sizes would save everyone a lot of hassle."<br/>
+**Antipattern**: "If you want to fix it, start your own clothing brand. Put your money where your mouth is."<br/>
 **Better**: "The problem is that brands use sizing as part of their identity. Any standard would have to get buy-in from companies that benefit from the current mess."

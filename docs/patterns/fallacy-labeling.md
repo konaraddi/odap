@@ -30,14 +30,14 @@ Points to the actual problem with the reasoning rather than just categorizing it
 
 ## Examples
 
-**OP**: "Every time a major platform adds AI features, they also cut support staff. I think there's a connection."<br>
-**Antipattern**: "Correlation isn't causation. Classic logical fallacy."<br>
+**OP**: "Every time a major platform adds AI features, they also cut support staff. I think there's a connection."<br/>
+**Antipattern**: "Correlation isn't causation. Classic logical fallacy."<br/>
 **Better**: "Could be related, but companies cut support staff for lots of reasons, including cost pressure that has nothing to do with AI. Do the timelines actually line up?"
 
-**OP**: "AI coding agents built a working C compiler in a few hours. That's legitimately impressive even if it's not production-ready."<br>
-**Antipattern**: "Are you trying to demonstrate a textbook straw man? Nobody said it was production-ready."<br>
+**OP**: "AI coding agents built a working C compiler in a few hours. That's legitimately impressive even if it's not production-ready."<br/>
+**Antipattern**: "Are you trying to demonstrate a textbook straw man? Nobody said it was production-ready."<br/>
 **Better**: "I don't think anyone's claiming it's production-ready. The question is whether 'built in a few hours but broken' actually tells us anything useful about where agents are heading."
 
-**OP**: "I hope you feel the same way about factory farming every time you eat a burger."<br>
-**Antipattern**: "Literal whataboutism."<br>
+**OP**: "I hope you feel the same way about factory farming every time you eat a burger."<br/>
+**Antipattern**: "Literal whataboutism."<br/>
 **Better**: "Those are pretty different situations. Factory farming is a scale problem, this is about individual choices with a specific animal. Not sure the comparison holds."

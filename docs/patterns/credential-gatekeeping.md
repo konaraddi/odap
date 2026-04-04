@@ -29,14 +29,14 @@ People learn from specifics, not from being told they're not qualified to speak.
 
 ## Examples
 
-**OP**: "Most management problems come down to poor communication."<br>
-**Antipattern**: "Tell me you've never managed anyone without telling me."<br>
+**OP**: "Most management problems come down to poor communication."<br/>
+**Antipattern**: "Tell me you've never managed anyone without telling me."<br/>
 **Better**: "Communication is a big part of it, but the harder piece is aligning incentives when teams have competing priorities. You can communicate perfectly and still have conflict."
 
-**OP**: "AI coding tools give you a 10-20x speedup on writing code."<br>
-**Antipattern**: "Okay but what multiplier of features have you actually shipped."<br>
+**OP**: "AI coding tools give you a 10-20x speedup on writing code."<br/>
+**Antipattern**: "Okay but what multiplier of features have you actually shipped."<br/>
 **Better**: "Writing code faster doesn't mean shipping faster. Most of the time goes to figuring out what to build and debugging the weird edge cases. What does your overall velocity look like?"
 
-**OP**: "Compilers aren't that complicated once you understand the theory."<br>
-**Antipattern**: "Have you ever actually built one?"<br>
+**OP**: "Compilers aren't that complicated once you understand the theory."<br/>
+**Antipattern**: "Have you ever actually built one?"<br/>
 **Better**: "The theory is the clean part. Where it gets messy is optimization passes and target-specific codegen. Which stage are you working on?"

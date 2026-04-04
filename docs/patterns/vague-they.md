@@ -30,14 +30,14 @@ Specific targets make claims testable. Once the group is named, everyone can eva
 
 ## Examples
 
-**OP**: "I'm tired of how politicians ignore climate science."<br>
-**Antipattern**: "The funny thing is they all claim to follow the science but then they do nothing about it."<br>
+**OP**: "I'm tired of how politicians ignore climate science."<br/>
+**Antipattern**: "The funny thing is they all claim to follow the science but then they do nothing about it."<br/>
 **Better**: "Plenty of legislators say they accept the science. But voting records show only about 40% have backed concrete emissions policies, so the gap is real."
 
-**OP**: "AI keeps getting better but the critics won't acknowledge it."<br>
-**Antipattern**: "They never surrender. Always moving targets."<br>
+**OP**: "AI keeps getting better but the critics won't acknowledge it."<br/>
+**Antipattern**: "They never surrender. Always moving targets."<br/>
 **Better**: "Which critics? The 'LLMs will never write code' crowd has mostly gone quiet. The current skeptics are asking different questions about reliability."
 
-**OP**: "Malls and airports are tracking people through their phones now."<br>
-**Antipattern**: "They say it's for public safety but they obviously use it for marketing too."<br>
+**OP**: "Malls and airports are tracking people through their phones now."<br/>
+**Antipattern**: "They say it's for public safety but they obviously use it for marketing too."<br/>
 **Better**: "In the EU, building individual profiles without consent is illegal, but aggregate foot-traffic analytics are fair game. The question is whether anyone's actually enforcing the line."

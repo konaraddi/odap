@@ -30,14 +30,14 @@ People asking for evidence are doing exactly what they should be doing. Meeting 
 
 ## Examples
 
-**OP**: "Studies show this approach is ineffective."<br>
-**Antipattern**: "Do your own research. I'm not going to spoon-feed you basic facts."<br>
+**OP**: "Studies show this approach is ineffective."<br/>
+**Antipattern**: "Do your own research. I'm not going to spoon-feed you basic facts."<br/>
 **Better**: "This meta-analysis found limited effectiveness: [link]. The main issue was sample size in most of the studies."
 
-**OP**: "I don't think the pricing works out that way for flat-rate API plans."<br>
-**Antipattern**: "Please go read how the plan actually works before commenting."<br>
+**OP**: "I don't think the pricing works out that way for flat-rate API plans."<br/>
+**Antipattern**: "Please go read how the plan actually works before commenting."<br/>
 **Better**: "It's counterintuitive but lower usage actually costs them more on flat-rate. Here's the breakdown: [link]."
 
-**OP**: "Is there evidence that blue light filters actually help with sleep?"<br>
-**Antipattern**: "Google exists. This has been studied to death, educate yourself."<br>
+**OP**: "Is there evidence that blue light filters actually help with sleep?"<br/>
+**Antipattern**: "Google exists. This has been studied to death, educate yourself."<br/>
 **Better**: "The research is pretty mixed. This Cochrane review is a decent starting point: [link]. Short version is the effect is small if it exists at all."

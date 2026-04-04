@@ -27,14 +27,14 @@ Keeps the conversation focused on substance rather than judgment about whether s
 
 ## Examples
 
-**OP**: "The ISS has been continuously inhabited for 25 years, which is a remarkable achievement in orbital engineering."<br>
-**Antipattern**: "We call it a 'space' station. It's a glorified LEO station."<br>
+**OP**: "The ISS has been continuously inhabited for 25 years, which is a remarkable achievement in orbital engineering."<br/>
+**Antipattern**: "We call it a 'space' station. It's a glorified LEO station."<br/>
 **Better**: "True, though maintaining anything in space for 25 years is impressive. I do wish we were more ambitious about going beyond LEO."
 
-**OP**: "We built a new internal tool using a few open-source libraries. It's cut our deploy time in half."<br>
-**Antipattern**: "That's merely a wrapper around existing libraries."<br>
+**OP**: "We built a new internal tool using a few open-source libraries. It's cut our deploy time in half."<br/>
+**Antipattern**: "That's merely a wrapper around existing libraries."<br/>
 **Better**: "Building on existing libraries is smart. The real value seems to be in how it combines them. What was the biggest bottleneck before?"
 
-**OP**: "This new battery tech improves energy density by 15% over current designs."<br>
-**Antipattern**: "It's only an incremental improvement, nothing groundbreaking."<br>
+**OP**: "This new battery tech improves energy density by 15% over current designs."<br/>
+**Antipattern**: "It's only an incremental improvement, nothing groundbreaking."<br/>
 **Better**: "15% is significant if it compounds over a few generations. Do they have a roadmap for where this chemistry tops out?"

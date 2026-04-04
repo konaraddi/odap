@@ -30,14 +30,14 @@ Keeps the discussion on substance. If a comment really is low-quality AI slop, t
 
 ## Examples
 
-**OP**: "The proposed regulation could backfire because compliance costs would push smaller players out of the market, concentrating power among the companies it's supposed to regulate."<br>
-**Antipattern**: "This reads like ChatGPT wrote it. The paragraph structure is a dead giveaway."<br>
+**OP**: "The proposed regulation could backfire because compliance costs would push smaller players out of the market, concentrating power among the companies it's supposed to regulate."<br/>
+**Antipattern**: "This reads like ChatGPT wrote it. The paragraph structure is a dead giveaway."<br/>
 **Better**: "Interesting point about compliance costs. Do you have examples of where this has happened before? Telecom maybe?"
 
-**OP**: "Here's a breakdown of why end-to-end encryption matters for journalism."<br>
-**Antipattern**: "My AI content blocker flagged this article. Not worth reading."<br>
+**OP**: "Here's a breakdown of why end-to-end encryption matters for journalism."<br/>
+**Antipattern**: "My AI content blocker flagged this article. Not worth reading."<br/>
 **Better**: "The argument about source protection makes sense, but how does this square with the metadata issue? E2E doesn't help if the contacts are still visible."
 
-**OP**: "I think the real bottleneck in self-driving isn't the model, it's the edge cases in infrastructure like faded lane markings and inconsistent signage."<br>
-**Antipattern**: "This comment has big LLM energy. Are you a bot?"<br>
+**OP**: "I think the real bottleneck in self-driving isn't the model, it's the edge cases in infrastructure like faded lane markings and inconsistent signage."<br/>
+**Antipattern**: "This comment has big LLM energy. Are you a bot?"<br/>
 **Better**: "Faded markings are a real issue. I wonder how much of this could be solved with V2I communication instead of relying on visual parsing."
