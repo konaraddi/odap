@@ -30,14 +30,14 @@ Lets the idea stand on its own without forcing readers to first prove they're fa
 
 ## Examples
 
-**OP**: "Should we add more bike lanes downtown?"
-**Antipattern**: "This will probably get downvoted, but I think bike lanes actually make traffic worse."
+**OP**: "Should we add more bike lanes downtown?"<br>
+**Antipattern**: "This will probably get downvoted, but I think bike lanes actually make traffic worse."<br>
 **Better**: "Bike lanes can sometimes worsen traffic flow. Has anyone looked at the data from similar cities?"
 
-**OP**: "Radio host says Google's NotebookLM tool cloned his voice without consent."
-**Antipattern**: "Probably an unpopular opinion on this forum, but it sounds like theft to me. I'm very anti-AI in the artistic space."
+**OP**: "Radio host says Google's NotebookLM tool cloned his voice without consent."<br>
+**Antipattern**: "Probably an unpopular opinion on this forum, but it sounds like theft to me. I'm very anti-AI in the artistic space."<br>
 **Better**: "It sounds like theft to me. If someone's voice is recognizably theirs, using it without permission shouldn't be a gray area."
 
-**OP**: "Amazon should be forced to open their smart home backend so users can self-host."
-**Antipattern**: "I know this is not constructive, but honestly, screw them and their convenience."
+**OP**: "Amazon should be forced to open their smart home backend so users can self-host."<br>
+**Antipattern**: "I know this is not constructive, but honestly, screw them and their convenience."<br>
 **Better**: "I'd rather just not buy their hardware. Self-hosting shouldn't require waiting for regulators to force their hand."

@@ -35,8 +35,6 @@ title: Pattern Name
 
 ## Example
 
-**OP**: [Original comment or topic]
-
-**Antipattern reply**: [Antipattern response]
-
+**OP**: [Original comment or topic]<br>
+**Antipattern**: [Antipattern response]<br>
 **Better**: [Better alternative response]

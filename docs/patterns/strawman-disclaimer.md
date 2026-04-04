@@ -30,14 +30,14 @@ Lets people respond to what's actually being argued instead of getting tangled i
 
 ## Examples
 
-**OP**: "We should have better protections for gig workers since they lack basic benefits."
-**Antipattern**: "I'm not one to subscribe to the socialist thinking of Bernie Sanders, but we should have better protections for gig workers since they lack basic benefits."
+**OP**: "We should have better protections for gig workers since they lack basic benefits."<br>
+**Antipattern**: "I'm not one to subscribe to the socialist thinking of Bernie Sanders, but we should have better protections for gig workers since they lack basic benefits."<br>
 **Better**: "I think we should have better protections for gig workers. The current model shifts too much risk onto individuals."
 
-**OP**: "Smart sleep masks are broadcasting users' brainwave data to an open server."
-**Antipattern**: "I'm a neuroscientist, so I'm not going to say the EEG data is mind reading or anything, but non-privacy of brain data is very bad."
+**OP**: "Smart sleep masks are broadcasting users' brainwave data to an open server."<br>
+**Antipattern**: "I'm a neuroscientist, so I'm not going to say the EEG data is mind reading or anything, but non-privacy of brain data is very bad."<br>
 **Better**: "The EEG data alone isn't detailed enough to extract thoughts, but setting a precedent that brain data doesn't need to be private is a serious problem."
 
-**OP**: "Anti-LLM sentiment in software development is nearly non-existent."
-**Antipattern**: "I'm not presenting these as an 'LLMs are bad' argument and my own feelings go both ways, but here are five categories of legitimate developer concerns about LLMs."
+**OP**: "Anti-LLM sentiment in software development is nearly non-existent."<br>
+**Antipattern**: "I'm not presenting these as an 'LLMs are bad' argument and my own feelings go both ways, but here are five categories of legitimate developer concerns about LLMs."<br>
 **Better**: "That's not true. There are real concerns: job displacement, reduced craft satisfaction, skill erosion, training data ethics, and uncertainty about where this all goes. Those aren't fringe positions."

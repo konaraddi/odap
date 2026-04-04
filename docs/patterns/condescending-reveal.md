@@ -27,14 +27,14 @@ Puts the focus on the substance instead of on the social dynamic of who knows mo
 
 ## Examples
 
-**OP**: "IDK how everyone else feels about it, but a non-deterministic 'compiler' is the last thing I need."
-**Antipattern**: "I may have bad news for you on how compilers typically work."
+**OP**: "IDK how everyone else feels about it, but a non-deterministic 'compiler' is the last thing I need."<br>
+**Antipattern**: "I may have bad news for you on how compilers typically work."<br>
 **Better**: "Modern compilers already have non-deterministic aspects (optimization heuristics, instruction scheduling). The concern with LLMs is probably more about unpredictable correctness than non-determinism per se."
 
-**OP**: "Your phone is definitely listening to your conversations. I talked about hiking boots with a friend and got ads for them an hour later."
-**Antipattern**: "Hate to break it to you, but that's not how any of this works."
+**OP**: "Your phone is definitely listening to your conversations. I talked about hiking boots with a friend and got ads for them an hour later."<br>
+**Antipattern**: "Hate to break it to you, but that's not how any of this works."<br>
 **Better**: "It's actually weirder than that. Your friend probably searched for boots, and the ad network inferred you two are connected. No mic needed when the behavioral data is that good."
 
-**OP**: "We should just rewrite our CUDA kernels in HIP so we're not locked into Nvidia."
-**Antipattern**: "Someone should probably tell you what HIP actually is before you go down that road."
+**OP**: "We should just rewrite our CUDA kernels in HIP so we're not locked into Nvidia."<br>
+**Antipattern**: "Someone should probably tell you what HIP actually is before you go down that road."<br>
 **Better**: "HIP covers the runtime API side, but the kernels are the hard part since the architectures are genuinely different. Hipify helps but it's not a drop-in swap. Depends on how much custom kernel work you have."

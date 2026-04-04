@@ -27,14 +27,14 @@ Keeps the focus on the idea instead of the audience. If you think something dese
 
 ## Examples
 
-**OP**: "I think remote work has been a net positive for most industries."
-**Antipattern**: "Of course this gets downvoted. This site can't handle any opinion that goes against the hivemind."
+**OP**: "I think remote work has been a net positive for most industries."<br>
+**Antipattern**: "Of course this gets downvoted. This site can't handle any opinion that goes against the hivemind."<br>
 **Better**: "People are too quick to dismiss this. The data on productivity and retention has been pretty consistent since 2022."
 
-**OP**: "Interesting post on the D programming language and where it's headed."
-**Antipattern**: "How is this on the front page? Instead of downvoting me, just explain why you upvoted it. Probably sock accounts."
+**OP**: "Interesting post on the D programming language and where it's headed."<br>
+**Antipattern**: "How is this on the front page? Instead of downvoting me, just explain why you upvoted it. Probably sock accounts."<br>
 **Better**: "Genuine question: what's the niche for D today? It always felt like it was competing with Rust and Go for the same crowd."
 
-**OP**: "NSA open-sourced Ghidra. What's been your experience with it vs. IDA?"
-**Antipattern**: "God forbid someone pose an interesting question on a discussion board. This place flags anything that isn't cheerleading."
+**OP**: "NSA open-sourced Ghidra. What's been your experience with it vs. IDA?"<br>
+**Antipattern**: "God forbid someone pose an interesting question on a discussion board. This place flags anything that isn't cheerleading."<br>
 **Better**: "Most hobbyists I know still reach for IDA out of habit. Ghidra's decompiler has gotten a lot better though, especially for ARM."

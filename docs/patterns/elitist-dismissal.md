@@ -27,14 +27,14 @@ Keeps the door open to actual discussion about tradeoffs. People respond to spec
 
 ## Examples
 
-**OP**: "Notion just hit 100 million users. It's become the go-to for project management."
-**Antipattern**: "Average users don't know what quality looks like. Anyone serious uses something with actual power under the hood."
+**OP**: "Notion just hit 100 million users. It's become the go-to for project management."<br>
+**Antipattern**: "Average users don't know what quality looks like. Anyone serious uses something with actual power under the hood."<br>
 **Better**: "I find it too slow for large projects, but it clearly nails the onboarding experience in a way other tools don't. Curious if heavy users hit the same walls I did."
 
-**OP**: "Our team switched to AI-assisted code review and it's catching bugs we used to miss."
-**Antipattern**: "Real developers don't need AI to write quality code. The masses just yearn for slop."
+**OP**: "Our team switched to AI-assisted code review and it's catching bugs we used to miss."<br>
+**Antipattern**: "Real developers don't need AI to write quality code. The masses just yearn for slop."<br>
 **Better**: "What kinds of bugs is it catching? I've found it useful for spotting simple stuff but useless for anything architectural."
 
-**OP**: "TikTok-style short videos are now the most consumed content format worldwide."
-**Antipattern**: "This is what happens when you design for the lowest common denominator. People have no attention span left."
+**OP**: "TikTok-style short videos are now the most consumed content format worldwide."<br>
+**Antipattern**: "This is what happens when you design for the lowest common denominator. People have no attention span left."<br>
 **Better**: "The format works for some things and is terrible for others. I've actually learned solid cooking techniques from 60-second videos. The algorithm just buries anything that requires depth or long attention spans."

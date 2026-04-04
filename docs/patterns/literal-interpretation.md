@@ -27,14 +27,14 @@ Shows you understood the point and moves the conversation forward. You can still
 
 ## Examples
 
-**OP**: "Social media is rotting kids' brains."
-**Antipattern**: "Brains don't rot. Rot is a biological decomposition process."
+**OP**: "Social media is rotting kids' brains."<br>
+**Antipattern**: "Brains don't rot. Rot is a biological decomposition process."<br>
 **Better**: "The attention and development effects are real concerns. Do you think it's more about screen time in general or specific platforms?"
 
-**OP**: "The economy is overheating and something has to give."
-**Antipattern**: "Can you show me where the economy literally 'overheats'? What's the temperature?"
+**OP**: "The economy is overheating and something has to give."<br>
+**Antipattern**: "Can you show me where the economy literally 'overheats'? What's the temperature?"<br>
 **Better**: "Inflation and wage pressure are definitely accelerating. What do you think breaks first, housing or consumer spending?"
 
-**OP**: "Tech companies are building a pipeline straight from CS programs to their hiring pools."
-**Antipattern**: "Companies don't have pipelines. Pipelines carry fluids."
+**OP**: "Tech companies are building a pipeline straight from CS programs to their hiring pools."<br>
+**Antipattern**: "Companies don't have pipelines. Pipelines carry fluids."<br>
 **Better**: "That recruiting pressure is real. I'm curious whether bootcamp grads are starting to disrupt that pattern at all."

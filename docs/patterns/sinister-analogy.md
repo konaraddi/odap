@@ -30,14 +30,14 @@ Spelling out the actual concern gives people something to engage with. A named r
 
 ## Examples
 
-**OP**: "Humans have always worked with tools and assistants. Even Einstein relied heavily on collaborators."
-**Antipattern**: "And Stalin had Lysenko."
+**OP**: "Humans have always worked with tools and assistants. Even Einstein relied heavily on collaborators."<br>
+**Antipattern**: "And Stalin had Lysenko."<br>
 **Better**: "True, but the dynamic changes when the 'assistant' is opaque and controlled by a single company. The collaboration analogy has limits."
 
-**OP**: "The rate of progress here is similar to what we saw with SpaceX. Skeptics kept moving the goalpost."
-**Antipattern**: "This is indiscernible from the Theranos conversation. For every grifter who delivers, how many fail?"
+**OP**: "The rate of progress here is similar to what we saw with SpaceX. Skeptics kept moving the goalpost."<br>
+**Antipattern**: "This is indiscernible from the Theranos conversation. For every grifter who delivers, how many fail?"<br>
 **Better**: "SpaceX had publicly verifiable milestones though. What's the equivalent here? I'd feel better if benchmarks were independently reproduced."
 
-**OP**: "This new urban planning tool uses AI to optimize traffic flow across the whole city grid."
-**Antipattern**: "Sounds a lot like what Enron promised about energy markets. Centralized optimization by a black box."
+**OP**: "This new urban planning tool uses AI to optimize traffic flow across the whole city grid."<br>
+**Antipattern**: "Sounds a lot like what Enron promised about energy markets. Centralized optimization by a black box."<br>
 **Better**: "Citywide optimization sounds great in theory, but what happens when the model gets a bad input? I'd want to know the failure modes before rolling it out."

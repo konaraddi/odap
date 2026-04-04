@@ -30,14 +30,14 @@ Gives people something concrete to respond to or learn from, and keeps the conve
 
 ## Examples
 
-**OP**: "Microservices are obviously the right architecture for any serious project."
-**Antipattern**: "Anyone who's studied distributed systems would know why that's wrong."
+**OP**: "Microservices are obviously the right architecture for any serious project."<br>
+**Antipattern**: "Anyone who's studied distributed systems would know why that's wrong."<br>
 **Better**: "Microservices add a ton of operational complexity. Most teams that switched from a monolith in the 2010s ended up reinventing half of what the monolith gave them for free. It depends heavily on team size and deployment needs."
 
-**OP**: "I don't get why people make such a big deal about database indexes. Just query the data you need."
-**Antipattern**: "Maybe read a database textbook before commenting on performance."
+**OP**: "I don't get why people make such a big deal about database indexes. Just query the data you need."<br>
+**Antipattern**: "Maybe read a database textbook before commenting on performance."<br>
 **Better**: "Without an index, the DB has to scan every row in the table. On a table with a few million rows that turns a 5ms query into a 30-second one. It's one of those things where the difference is dramatic enough to matter even at modest scale."
 
-**OP**: "The Founders never intended for the government to be this involved in daily life."
-**Antipattern**: "If you believe that, you seriously need a history lesson."
+**OP**: "The Founders never intended for the government to be this involved in daily life."<br>
+**Antipattern**: "If you believe that, you seriously need a history lesson."<br>
 **Better**: "Hamilton pushed hard for federal involvement in commerce and banking, and the first Congress set up oversight of trade and public health. They debated the scope of government constantly. It wasn't as settled as people assume."

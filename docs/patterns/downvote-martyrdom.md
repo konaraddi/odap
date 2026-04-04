@@ -30,14 +30,14 @@ Focuses on improving the argument rather than prosecuting the audience. Treats d
 
 ## Examples
 
-**OP**: "This policy will backfire because [argument]." *[Gets downvoted]*
-**Antipattern**: "EDIT: Getting downvoted for stating facts. Stay mad, Reddit."
+**OP**: "This policy will backfire because [argument]." *[Gets downvoted]*<br>
+**Antipattern**: "EDIT: Getting downvoted for stating facts. Stay mad, Reddit."<br>
 **Better**: "EDIT: Since a few people are pushing back, here's the analysis I'm basing this on: [link]."
 
-**OP**: "Serious question, why is this on the front page? We all know about this tool and most of us chose not to use it."
-**Antipattern**: "EDIT: Instead of downvoting, just answer the question. I'm guessing it's the same sock accounts that upvoted the post."
+**OP**: "Serious question, why is this on the front page? We all know about this tool and most of us chose not to use it."<br>
+**Antipattern**: "EDIT: Instead of downvoting, just answer the question. I'm guessing it's the same sock accounts that upvoted the post."<br>
 **Better**: "Genuinely curious what's drawing people to this now. Did something change recently, or is there a use case I'm not seeing?"
 
-**OP**: "I don't think this approach scales. The overhead kills you past a few thousand concurrent users."
-**Antipattern**: "I do not understand the downvotes. This is basic systems knowledge. The downvotes are from people who've never run anything at scale."
+**OP**: "I don't think this approach scales. The overhead kills you past a few thousand concurrent users."<br>
+**Antipattern**: "I do not understand the downvotes. This is basic systems knowledge. The downvotes are from people who've never run anything at scale."<br>
 **Better**: "To be more specific: at ~5k connections we saw latency spike 3x with this pattern. Switched to [alternative] and it flattened out. Happy to share the benchmarks."

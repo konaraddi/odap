@@ -26,14 +26,14 @@ Restating what you meant moves the conversation forward. Correcting what someone
 
 ## Examples
 
-**OP**: "Sounds like you're writing off Racket compared to Guile."
-**Antipattern**: "I wrote that Guile 'greatly lags' Racket."
+**OP**: "Sounds like you're writing off Racket compared to Guile."<br>
+**Antipattern**: "I wrote that Guile 'greatly lags' Racket."<br>
 **Better**: "Actually the opposite. I think Racket is excellent, just more mature. Guile is catching up but still lags in tooling and libraries."
 
-**OP**: "So you're saying monopolies are fine as long as the product is good?"
-**Antipattern**: "That's not what I quite meant."
+**OP**: "So you're saying monopolies are fine as long as the product is good?"<br>
+**Antipattern**: "That's not what I quite meant."<br>
 **Better**: "Not quite. My point is that competition is good for consumers, but having fewer players isn't automatically bad if there's still pressure to improve."
 
-**OP**: "You're saying this framework is dead."
-**Antipattern**: "I said 'concerning,' not 'dead.' Please read more carefully."
+**OP**: "You're saying this framework is dead."<br>
+**Antipattern**: "I said 'concerning,' not 'dead.' Please read more carefully."<br>
 **Better**: "I wouldn't say dead. The release cadence has slowed down a lot, which worries me, but there's still an active community around it."

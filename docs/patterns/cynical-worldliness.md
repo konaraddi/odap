@@ -30,14 +30,14 @@ Converts experience into contribution instead of into dismissal. People who've b
 
 ## Examples
 
-**OP**: "This company just got caught selling user data to third-party brokers without disclosure."
-**Antipattern**: "You sweet summer child. Every company does this. Welcome to the internet."
+**OP**: "This company just got caught selling user data to third-party brokers without disclosure."<br>
+**Antipattern**: "You sweet summer child. Every company does this. Welcome to the internet."<br>
 **Better**: "Yeah, this has been an industry norm for years. The FTC cracked down on a few cases in 2024 but enforcement has been inconsistent. Curious if this one will stick."
 
-**OP**: "It turns out the contractor was billing for work they never did. This is a huge breach of trust."
-**Antipattern**: "First time dealing with contractors? This is how it works everywhere."
+**OP**: "It turns out the contractor was billing for work they never did. This is a huge breach of trust."<br>
+**Antipattern**: "First time dealing with contractors? This is how it works everywhere."<br>
 **Better**: "Unfortunately pretty common. We caught something similar last year. What helped was switching to milestone-based billing with verification at each stage."
 
-**OP**: "New report shows that most job postings with salary ranges put the floor at a number they never actually offer."
-**Antipattern**: "Tell me you've never negotiated a salary without telling me. This is basic stuff."
+**OP**: "New report shows that most job postings with salary ranges put the floor at a number they never actually offer."<br>
+**Antipattern**: "Tell me you've never negotiated a salary without telling me. This is basic stuff."<br>
 **Better**: "Yeah, the posted range is usually aspirational on both ends. The real number tends to cluster in the lower third. Colorado's transparency law data showed this pretty clearly."

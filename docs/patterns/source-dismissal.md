@@ -30,14 +30,14 @@ Keeps the conversation on substance. Forces you to actually read what was shared
 
 ## Examples
 
-**OP**: "Here's an analysis of the policy's impact: [Medium article link]"
-**Antipattern**: "LOL Medium. Got a real source?"
+**OP**: "Here's an analysis of the policy's impact: [Medium article link]"<br>
+**Antipattern**: "LOL Medium. Got a real source?"<br>
 **Better**: "Do they cite any actual data, or is this mostly the author's take? The argument sounds reasonable but I'd want to see the numbers."
 
-**OP**: "This Substack post breaks down why the new zoning rules might backfire."
-**Antipattern**: "Of course it's a Substack. Not reading that."
+**OP**: "This Substack post breaks down why the new zoning rules might backfire."<br>
+**Antipattern**: "Of course it's a Substack. Not reading that."<br>
 **Better**: "Their argument about permit backlogs is interesting. Is there any data on how other cities handled the same change?"
 
-**OP**: "Forbes ran a piece on the security risks of browser extensions."
-**Antipattern**: "Forbes is a content farm now. Anything from there is worthless."
+**OP**: "Forbes ran a piece on the security risks of browser extensions."<br>
+**Antipattern**: "Forbes is a content farm now. Anything from there is worthless."<br>
 **Better**: "Some Forbes contributors are better than others. What's the actual claim? If extensions are exfiltrating data, that's worth looking at regardless of where it's published."
