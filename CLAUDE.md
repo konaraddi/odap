@@ -188,6 +188,34 @@ Total page length: Aim for something readable in under 60 seconds.
 - Keep them neutral, not judgmental
 - Examples: "hindsight-dismissal" not "being-a-know-it-all"
 
+## Mining Digests for Antipatterns
+
+### What Digests Are
+
+The `digests/` directory contains raw, anonymized comment snippets collected from online discourse (Reddit, Twitter, etc.), organized by date. They're source material for identifying new patterns.
+
+### How to Mine Them
+
+Read through digests looking for recurring conversational moves that:
+- Appear across multiple digests/threads (not one-off bad behavior)
+- Are distinct from the 30+ existing patterns in `docs/patterns/`
+- Meet the antipattern criteria already in this document (sounds reasonable, frequent, has alternatives, damages dialogue)
+
+### What to Report When Proposing Candidates
+
+For each candidate pattern:
+- A proposed name (neutral, descriptive)
+- A 1-2 sentence description of the move
+- 2-3 supporting quotes from digests (with dates)
+- Why it's distinct from existing patterns
+- A quick gut-check: is this subtle enough? (Blatant rudeness isn't an antipattern)
+
+### Common Pitfalls When Mining
+
+- Don't propose patterns that are just topic-specific versions of existing ones (e.g., a tech-specific credential-gatekeeping is still credential-gatekeeping)
+- Don't confuse a bad opinion with a bad conversational move
+- A single spicy comment isn't a pattern; look for the structural move that repeats
+
 ## Repository Philosophy
 
 The internet doesn't have to be hostile. Most people want to have good conversations - they just fall into patterns that work against that goal. By naming these patterns and offering alternatives, we help people recognize and adjust these habits.
