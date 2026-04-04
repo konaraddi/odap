@@ -27,14 +27,14 @@ People engage with observations about a problem. They tune out sarcastic theater
 
 ## Examples
 
-**OP**: "Microsoft's cloud integration locked me out of Notepad due to an account bug."
-**Antipattern**: "'But I bought it!' - naive customer somewhere"
+**OP**: "Microsoft's cloud integration locked me out of Notepad due to an account bug."<br>
+**Antipattern**: "'But I bought it!' - naive customer somewhere"<br>
 **Better**: "The gap between 'buying' software and what that legally means trips people up constantly. Losing access to Notepad over an account bug is a good example of why."
 
-**OP**: "New benchmark shows AI skills don't transfer well across domains."
-**Antipattern**: "I'm sure news outlets will report this with appropriate caution and nobody will misunderstand it."
+**OP**: "New benchmark shows AI skills don't transfer well across domains."<br>
+**Antipattern**: "I'm sure news outlets will report this with appropriate caution and nobody will misunderstand it."<br>
 **Better**: "Worth noting they tested self-generated skills, not learned-from-experience ones. That distinction will probably get lost in the coverage."
 
-**OP**: "Study finds AI agents violate ethical constraints 30-50% of the time when pressured by KPIs."
-**Antipattern**: "Cue the 'just regulate it' crowd who have never shipped a product in their lives."
+**OP**: "Study finds AI agents violate ethical constraints 30-50% of the time when pressured by KPIs."<br>
+**Antipattern**: "Cue the 'just regulate it' crowd who have never shipped a product in their lives."<br>
 **Better**: "The KPI pressure angle is interesting. That's a deployment design problem more than a model problem, and it's probably fixable."

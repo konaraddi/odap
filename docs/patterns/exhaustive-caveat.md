@@ -30,14 +30,14 @@ Gives the other person something concrete to respond to. A clear position, even 
 
 ## Examples
 
-**OP**: "Our team switched to microservices and deployment speed doubled."
-**Antipattern**: "That's great for you, and I'm sure it works in your context, and I don't want to rain on your parade, but microservices are basically a trap for most teams and you'll probably regret it."
+**OP**: "Our team switched to microservices and deployment speed doubled."<br>
+**Antipattern**: "That's great for you, and I'm sure it works in your context, and I don't want to rain on your parade, but microservices are basically a trap for most teams and you'll probably regret it."<br>
 **Better**: "Deployment speed is a real win. What's happened to debugging time? In my experience that's where microservices cost you."
 
-**OP**: "This study found that four-day work weeks increased productivity by 15%."
-**Antipattern**: "I think work-life balance matters, I really do, and I know the data looks compelling, but there's no way this generalizes. It's probably just a novelty effect, though I admit I haven't looked into the methodology."
+**OP**: "This study found that four-day work weeks increased productivity by 15%."<br>
+**Antipattern**: "I think work-life balance matters, I really do, and I know the data looks compelling, but there's no way this generalizes. It's probably just a novelty effect, though I admit I haven't looked into the methodology."<br>
 **Better**: "15% seems high. Did they measure over a long enough period to rule out a novelty effect?"
 
-**OP**: "We should require code reviews on every PR, no exceptions."
-**Antipattern**: "I totally get the value of code reviews, and I've seen them catch real bugs, and I don't want to sound like I'm against quality, but mandatory reviews on every PR is going to grind us to a halt."
+**OP**: "We should require code reviews on every PR, no exceptions."<br>
+**Antipattern**: "I totally get the value of code reviews, and I've seen them catch real bugs, and I don't want to sound like I'm against quality, but mandatory reviews on every PR is going to grind us to a halt."<br>
 **Better**: "Reviews catch bugs, but mandatory on every PR means one-line config changes wait in a queue. What about a size threshold?"

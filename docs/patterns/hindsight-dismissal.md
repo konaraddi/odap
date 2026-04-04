@@ -30,14 +30,14 @@ Keeps the conversation moving toward details that might genuinely surprise you. 
 
 ## Examples
 
-**OP**: "New study shows that getting 7-8 hours of sleep improves cognitive performance."
-**Antipattern**: "Well duh, anyone could have told you that. We didn't need a study for this."
+**OP**: "New study shows that getting 7-8 hours of sleep improves cognitive performance."<br>
+**Antipattern**: "Well duh, anyone could have told you that. We didn't need a study for this."<br>
 **Better**: "Did they break out the results by age group? I'd be curious whether the effect size is the same for people in their 20s vs 50s."
 
-**OP**: "Researchers found that remote workers report higher job satisfaction than in-office workers."
-**Antipattern**: "This is just common sense dressed up as research. Obviously people like working from home."
+**OP**: "Researchers found that remote workers report higher job satisfaction than in-office workers."<br>
+**Antipattern**: "This is just common sense dressed up as research. Obviously people like working from home."<br>
 **Better**: "I wonder how much of that is self-selection. The people who went remote probably wanted to. Did they control for that?"
 
-**OP**: "The app layer is becoming as important as the model layer in AI. You can swap models but you stick with one UI."
-**Antipattern**: "Well, duh. That's been true of every platform ever."
+**OP**: "The app layer is becoming as important as the model layer in AI. You can swap models but you stick with one UI."<br>
+**Antipattern**: "Well, duh. That's been true of every platform ever."<br>
 **Better**: "Is it though? People switched from ChatGPT to Claude without much friction. What's the actual lock-in mechanism at the app layer right now?"

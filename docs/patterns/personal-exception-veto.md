@@ -30,14 +30,14 @@ Turns a dead end into a useful comparison. Different experiences with the same t
 
 ## Examples
 
-**OP**: "Studies show that open-plan offices reduce face-to-face collaboration by about 70%."
-**Antipattern**: "I work in an open office and our team collaborates all the time. Sounds like a culture problem, not an office problem."
+**OP**: "Studies show that open-plan offices reduce face-to-face collaboration by about 70%."<br>
+**Antipattern**: "I work in an open office and our team collaborates all the time. Sounds like a culture problem, not an office problem."<br>
 **Better**: "Interesting. Our open office feels pretty collaborative, but we're a small team. I wonder if the effect scales with company size."
 
-**OP**: "A lot of users are reporting that the latest update kills battery life on older devices."
-**Antipattern**: "My phone is three years old and battery is fine after the update. People just need to manage their background apps."
+**OP**: "A lot of users are reporting that the latest update kills battery life on older devices."<br>
+**Antipattern**: "My phone is three years old and battery is fine after the update. People just need to manage their background apps."<br>
 **Better**: "Mine seems okay so far, but I'm on a different model. Are the reports concentrated on specific hardware?"
 
-**OP**: "Research suggests that code reviews catch significantly more bugs than automated testing alone."
-**Antipattern**: "I've shipped production code for 15 years and our test suite catches everything. Code reviews are a waste of time."
+**OP**: "Research suggests that code reviews catch significantly more bugs than automated testing alone."<br>
+**Antipattern**: "I've shipped production code for 15 years and our test suite catches everything. Code reviews are a waste of time."<br>
 **Better**: "Our test coverage is pretty good and catches most things, but we've also had reviews catch design issues that tests wouldn't. Probably depends on what you're measuring."

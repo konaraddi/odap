@@ -27,14 +27,14 @@ Keeps the conversation grounded in something specific. Broad claims without expl
 
 ## Examples
 
-**OP**: "It's fascinating how few people read past the GitHub issue title before commenting."
-**Antipattern**: "And this is exactly why coding with AI is taking over. Most people think they are more capable than they actually are."
+**OP**: "It's fascinating how few people read past the GitHub issue title before commenting."<br>
+**Antipattern**: "And this is exactly why coding with AI is taking over. Most people think they are more capable than they actually are."<br>
 **Better**: "Yeah, the issue body had important context about the limitation. You lose a lot by just skimming titles."
 
-**OP**: "This post walks through simplifying Vulkan's descriptor system."
-**Antipattern**: "This is why we need better CS education. People don't understand low-level graphics anymore."
+**OP**: "This post walks through simplifying Vulkan's descriptor system."<br>
+**Antipattern**: "This is why we need better CS education. People don't understand low-level graphics anymore."<br>
 **Better**: "The descriptor pooling approach is interesting. Curious how it handles dynamic uniform buffers though."
 
-**OP**: "I hooked up Claude to my pen plotter and it drew some cool generative art."
-**Antipattern**: "And this is why this technology needs to be destroyed. We're automating away human creativity."
+**OP**: "I hooked up Claude to my pen plotter and it drew some cool generative art."<br>
+**Antipattern**: "And this is why this technology needs to be destroyed. We're automating away human creativity."<br>
 **Better**: "The line work looks surprisingly clean. Did you constrain the output format or just let it generate raw SVG?"

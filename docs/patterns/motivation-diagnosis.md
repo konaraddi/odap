@@ -27,14 +27,14 @@ Specific criticism of a practice is actually persuasive. Armchair psychology jus
 
 ## Examples
 
-**OP**: "We started using Claude to generate API documentation and it's been a huge time-saver."
-**Antipattern**: "Engineer who was too lazy to write docs before now generates AI slop and continues not to write docs, news at 11."
+**OP**: "We started using Claude to generate API documentation and it's been a huge time-saver."<br>
+**Antipattern**: "Engineer who was too lazy to write docs before now generates AI slop and continues not to write docs, news at 11."<br>
 **Better**: "I'm skeptical. AI-generated docs often miss the nuance of why design decisions were made. Do you find you're doing substantial editing?"
 
-**OP**: "I've been building side projects with LLM agents and I'm having a blast. Way more productive than I used to be."
-**Antipattern**: "This is just dopamine addiction. You're not being productive, you're pulling the slot machine lever over and over."
+**OP**: "I've been building side projects with LLM agents and I'm having a blast. Way more productive than I used to be."<br>
+**Antipattern**: "This is just dopamine addiction. You're not being productive, you're pulling the slot machine lever over and over."<br>
 **Better**: "Are the projects actually reaching a finished state, or do you find you spend more time prompting than shipping? Genuinely curious what the completion rate looks like."
 
-**OP**: "I think we should move away from microservices and consolidate back to a monolith for our scale."
-**Antipattern**: "You only say that because you don't want to learn distributed systems."
+**OP**: "I think we should move away from microservices and consolidate back to a monolith for our scale."<br>
+**Antipattern**: "You only say that because you don't want to learn distributed systems."<br>
 **Better**: "We tried that and the deploy pipeline got brutal around 50 contributors. What's your team size? That's the part where monoliths usually start to hurt."

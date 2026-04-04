@@ -30,14 +30,14 @@ Treats the other person as someone who made a considered decision rather than so
 
 ## Examples
 
-**OP**: "We shipped the desktop app using Electron to reuse our web codebase and move faster."
-**Antipattern**: "Electron apps are bloated garbage. Real developers build native apps that don't eat 500MB of RAM."
+**OP**: "We shipped the desktop app using Electron to reuse our web codebase and move faster."<br>
+**Antipattern**: "Electron apps are bloated garbage. Real developers build native apps that don't eat 500MB of RAM."<br>
 **Better**: "How's the performance been in practice? Electron gets a bad rap but it depends a lot on what the app actually does."
 
-**OP**: "We went with Tailwind for the redesign and it's been great for velocity."
-**Antipattern**: "Using Tailwind just means your team never learned proper CSS."
+**OP**: "We went with Tailwind for the redesign and it's been great for velocity."<br>
+**Antipattern**: "Using Tailwind just means your team never learned proper CSS."<br>
 **Better**: "What sold you over plain CSS or something like CSS modules? Curious if the speed gain holds up as the project grows."
 
-**OP**: "New gopher here. What library are people using for HTTP routing in Go?"
-**Antipattern**: "You should just use the standard library. It's always worked fine. People who reach for libraries don't understand the language."
+**OP**: "New gopher here. What library are people using for HTTP routing in Go?"<br>
+**Antipattern**: "You should just use the standard library. It's always worked fine. People who reach for libraries don't understand the language."<br>
 **Better**: "The standard library covers a lot, but chi and gorilla/mux are solid if you want middleware chaining out of the box. Depends on how much routing logic you need."

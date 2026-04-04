@@ -27,14 +27,14 @@ People raising technical or ethical concerns usually know the sci-fi parallels a
 
 ## Examples
 
-**OP**: "Giving AI systems meta-goals like self-preservation could be useful for long-running autonomous operations."
-**Antipattern**: "So... Skynet? This is how it starts."
+**OP**: "Giving AI systems meta-goals like self-preservation could be useful for long-running autonomous operations."<br>
+**Antipattern**: "So... Skynet? This is how it starts."<br>
 **Better**: "How would you prevent self-preservation goals from conflicting with human objectives? That seems like the hard part."
 
-**OP**: "This sleep mask broadcasts brainwave data to an open MQTT broker. Anyone on the network can read it."
-**Antipattern**: "Cool, so we're building the Inception machine now. What could go wrong."
+**OP**: "This sleep mask broadcasts brainwave data to an open MQTT broker. Anyone on the network can read it."<br>
+**Antipattern**: "Cool, so we're building the Inception machine now. What could go wrong."<br>
 **Better**: "That's a pretty serious leak. Is there anything useful an attacker could actually do with raw EEG data, or is this more of a 'bad practice' thing?"
 
-**OP**: "WiFi sensing can now detect how many people are in a room and roughly where they're standing, no cameras needed."
-**Antipattern**: "This is literally a Black Mirror episode."
+**OP**: "WiFi sensing can now detect how many people are in a room and roughly where they're standing, no cameras needed."<br>
+**Antipattern**: "This is literally a Black Mirror episode."<br>
 **Better**: "What's the resolution like? Is this good enough to be a real privacy concern, or is it more 'approximate bag-of-water detector' territory?"
