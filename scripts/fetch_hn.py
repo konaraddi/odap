@@ -24,6 +24,12 @@ MAX_COMMENTS_OUTPUT = 100
 MAX_STORIES = 30
 MAX_COMMENTS_PER_STORY = 150
 REQUEST_TIMEOUT = 10
+# How many levels of ancestor context to include with each comment. One level
+# (the immediate parent) is often not enough to judge a reply, because the claim
+# being disputed is frequently a level or two further up.
+MAX_ANCESTORS = 3
+# Per-ancestor character budget in the digest.
+ANCESTOR_TRUNCATE = 700
 
 # Patterns that suggest escalation or dismissiveness
 ESCALATION_KEYWORDS = [
@@ -65,12 +71,6 @@ ESCALATION_KEYWORDS = [
 ]
 
 ESCALATION_PATTERNS = [re.compile(p, re.IGNORECASE) for p in ESCALATION_KEYWORDS]
-
-# Regex to detect links (http/https URLs, markdown links, bare domains)
-LINK_PATTERN = re.compile(
-    r"https?://|www\.|\.com/|\.org/|\.net/|\[.*?\]\(.*?\)|<a\s+href",
-    re.IGNORECASE,
-)
 
 
 class RateLimiter:
@@ -121,11 +121,6 @@ def strip_html(text):
     return text.strip()
 
 
-def has_links(text):
-    """Check if text contains any links."""
-    return bool(LINK_PATTERN.search(text or ""))
-
-
 def count_escalation_matches(text):
     """Count how many escalation keyword patterns match in the text."""
     if not text:
@@ -138,16 +133,28 @@ def count_escalation_matches(text):
 
 
 def has_quote_then_attack(text):
-    """Check if comment quotes someone then responds dismissively."""
+    """Check if comment quotes someone then responds dismissively.
+
+    strip_html() turns <p> into a blank-line separator, so the reply to a quoted
+    line is rarely the very next line -- it is usually separated by one or more
+    blank lines. Scan forward past blanks (and past any further quoted lines) to
+    find the first line of the actual reply.
+    """
     if not text:
         return False
     lines = text.split("\n")
     for i, line in enumerate(lines):
-        if line.strip().startswith(">") and i + 1 < len(lines):
-            next_line = lines[i + 1].lower()
+        if not line.strip().startswith(">"):
+            continue
+        # Walk forward to the first non-blank, non-quote line: the reply itself.
+        for candidate in lines[i + 1:]:
+            stripped = candidate.strip()
+            if not stripped or stripped.startswith(">"):
+                continue
             for pattern in ESCALATION_PATTERNS:
-                if pattern.search(next_line):
+                if pattern.search(stripped.lower()):
                     return True
+            break
     return False
 
 
@@ -166,8 +173,11 @@ def fetch_comment_tree(story_item):
     queue = list(kid_ids)
     # Track depth for each comment
     depth = {kid_id: 1 for kid_id in kid_ids}
-    # Cache fetched items to avoid refetching parents
-    item_cache = {}
+    # Cache fetched items to avoid refetching parents. Seed it with the story so
+    # that walking up from a top-level comment (whose parent IS the story) is a
+    # cache hit rather than a wasted network fetch that only proves it is not a
+    # comment.
+    item_cache = {story_item["id"]: story_item}
 
     while queue and len(comments) < MAX_COMMENTS_PER_STORY:
         cid = queue.pop(0)
@@ -177,24 +187,41 @@ def fetch_comment_tree(story_item):
             item["_story_id"] = story_item["id"]
             item["_story_title"] = story_item.get("title", "")
 
-            # Fetch parent comment context if available
-            if item.get("parent"):
+            # Walk the ancestor chain for context, nearest parent first.
+            # BFS guarantees every ancestor was processed (and cached) before this
+            # node was dequeued, so this is almost always cache hits and no network.
+            ancestors = []
+            ancestor_id = item.get("parent")
+            # Bound hops, not just collected texts: an ancestor with no text
+            # (deleted) does not grow `ancestors`, so without this the walk could
+            # keep climbing to the root fetching items it will never use.
+            hops = 0
+            while ancestor_id and len(ancestors) < MAX_ANCESTORS and hops < MAX_ANCESTORS * 2:
+                hops += 1
                 try:
-                    parent_id = item["parent"]
-                    # Check cache first
-                    if parent_id in item_cache:
-                        parent_item = item_cache[parent_id]
+                    if ancestor_id in item_cache:
+                        ancestor = item_cache[ancestor_id]
                     else:
-                        parent_item = fetch_item(parent_id)
-                        if parent_item:
-                            item_cache[parent_id] = parent_item
+                        ancestor = fetch_item(ancestor_id)
+                        if ancestor:
+                            item_cache[ancestor_id] = ancestor
 
-                    # Only add parent text if it's a comment (not story) and has text
-                    if parent_item and parent_item.get("type") == "comment" and parent_item.get("text"):
-                        item["_parent_text"] = strip_html(parent_item.get("text", ""))
+                    # Stop at the story root; only comments carry useful context.
+                    if not ancestor or ancestor.get("type") != "comment":
+                        break
+                    ancestor_text = strip_html(ancestor.get("text", ""))
+                    if ancestor_text:
+                        ancestors.append(ancestor_text)
+                    ancestor_id = ancestor.get("parent")
                 except Exception as e:
-                    # Log but don't fail - parent context is nice-to-have
-                    print(f"  Warning: Could not fetch parent {parent_id}: {e}", file=sys.stderr)
+                    print(f"  Warning: Could not fetch ancestor {ancestor_id}: {e}", file=sys.stderr)
+                    break
+
+            if ancestors:
+                # Nearest parent first; format_digest reverses for reading order.
+                item["_ancestor_texts"] = ancestors
+                # Kept for backward compatibility with the previous digest format.
+                item["_parent_text"] = ancestors[0]
 
             # Cache this item too
             item_cache[item["id"]] = item
@@ -224,36 +251,42 @@ def score_comment(comment):
     if len(text) < 20:
         return 0, []
 
-    # Skip comments with links
-    if has_links(text) or has_links(comment.get("text", "")):
-        return 0, []
+    # NOTE: comments containing links used to score 0 and be dropped entirely.
+    # That silently discarded whole classes of documented antipatterns
+    # (source-dismissal, refused-source, research-dismissal), which all tend to
+    # cite or link something. Links are no longer disqualifying.
 
     # Dead/flagged comments (strong signal)
     if comment.get("dead"):
         score += 5
         reasons.append("flagged/dead")
 
-    # Escalation keywords
+    # --- Content signals: what the comment actually says. Weighted highest,
+    # because these are the only signals that speak to discourse quality. ---
+
     keyword_count = count_escalation_matches(text)
     if keyword_count > 0:
-        score += keyword_count * 2
+        score += keyword_count * 3
         reasons.append(f"{keyword_count} escalation keyword(s)")
 
     # Quote-then-attack pattern
     if has_quote_then_attack(text):
-        score += 3
+        score += 4
         reasons.append("quote-then-attack")
 
-    # Thread killer: deep in thread and has no children
+    # --- Context signals: thread shape. Deliberately weak. A short comment deep
+    # in a thread is a conversational dead end, which is not the same thing as an
+    # antipattern; on their own these should not carry a comment into the digest. ---
+
     kids = comment.get("kids", [])
     depth = comment.get("_depth", 1)
     if not kids and depth >= 3:
-        score += 2
+        score += 1
         reasons.append(f"thread death at depth {depth}")
 
     # High reply count relative to depth (contentious)
     if len(kids) >= 5:
-        score += 2
+        score += 1
         reasons.append(f"{len(kids)} direct replies")
 
     # Length heuristic: very short replies in deep threads are often dismissive
@@ -283,7 +316,11 @@ def format_digest(scored_comments, date_str):
         depth = comment.get("_depth", 0)
         hn_url = f"https://news.ycombinator.com/item?id={comment['id']}"
         reason_str = ", ".join(reasons)
-        parent_text = comment.get("_parent_text", "")
+        # Nearest parent first in storage; reverse so the digest reads top-down
+        # (oldest ancestor -> immediate parent -> the comment itself).
+        ancestors = list(reversed(comment.get("_ancestor_texts", [])))
+        if not ancestors and comment.get("_parent_text"):
+            ancestors = [comment["_parent_text"]]
 
         lines.append(f"### #{i} (score: {score})")
         lines.append("")
@@ -292,14 +329,17 @@ def format_digest(scored_comments, date_str):
         lines.append(f"**Link**: {hn_url}")
         lines.append("")
 
-        # Include parent context if available
-        if parent_text:
-            # Truncate very long parent comments to keep digest readable
-            if len(parent_text) > 500:
-                parent_text = parent_text[:497] + "..."
-            lines.append("**Parent comment**:")
-            lines.append("> " + parent_text.replace("\n", "\n> "))
+        # Include the ancestor chain so the comment can be judged in context.
+        for offset, ancestor_text in enumerate(ancestors):
+            if len(ancestor_text) > ANCESTOR_TRUNCATE:
+                ancestor_text = ancestor_text[: ANCESTOR_TRUNCATE - 3] + "..."
+            levels_up = len(ancestors) - offset
+            label = "Parent comment" if levels_up == 1 else f"Ancestor ({levels_up} levels up)"
+            lines.append(f"**{label}**:")
+            lines.append("> " + ancestor_text.replace("\n", "\n> "))
             lines.append("")
+
+        if ancestors:
             lines.append("**This comment**:")
 
         lines.append("> " + text.replace("\n", "\n> "))
