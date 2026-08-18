@@ -31,9 +31,24 @@ MAX_ANCESTORS = 3
 # Per-ancestor character budget in the digest.
 ANCESTOR_TRUNCATE = 700
 
-# Patterns that suggest escalation or dismissiveness
+# Patterns that suggest escalation or dismissiveness.
+#
+# These must be *targeted*. Measured against the quoted comment bodies of the
+# first 108 digests, four bare/generic patterns were dropped because nearly all
+# of their matches were ordinary prose rather than dismissiveness:
+#
+#   \bobviously\b     748 matches -- "obviously this is a tradeoff". The
+#                     targeted form \byou obviously\b is kept below.
+#   \btypical\b       235 matches -- "a typical use case".
+#   \bi can'?t even\b  32 matches -- "I can't even figure out what it does",
+#                     not the standalone exclamation it was meant to catch.
+#   \bof course you\b  30 matches -- "of course you could just reprompt".
+#
+# Those four accounted for roughly three quarters of all keyword hits, so they
+# dominated the ranking while carrying little signal. Patterns with zero matches
+# are deliberately kept: they are Reddit-flavoured and this corpus is HN-only,
+# but the project targets Reddit and other platforms too.
 ESCALATION_KEYWORDS = [
-    r"\bobviously\b",
     r"\bclearly you\b",
     r"\bthat'?s not what i said\b",
     r"\byou clearly\b",
@@ -52,12 +67,9 @@ ESCALATION_KEYWORDS = [
     r"\bimagine thinking\b",
     r"\btell me you\b",
     r"\bdo your (own )?research\b",
-    r"\bi can'?t even\b",
     r"\bwhoosh\b",
     r"\br/whoosh\b",
     r"\byou people\b",
-    r"\btypical\b",
-    r"\bof course you\b",
     r"\bnot surprised\b",
     r"\bwhat a surprise\b",
     r"\bkeep telling yourself\b",
@@ -182,6 +194,17 @@ def fetch_comment_tree(story_item):
     while queue and len(comments) < MAX_COMMENTS_PER_STORY:
         cid = queue.pop(0)
         item = fetch_item(cid)
+        # KNOWN LIMITATION (pre-existing): a deleted comment, or one whose fetch
+        # fails, skips this whole block -- including the child enqueue at the
+        # bottom. Its entire subtree is therefore dropped from the traversal, so
+        # live replies under a deleted parent never make it into the digest.
+        #
+        # Fixing that is worthwhile, but note the coupling: the ancestor walk
+        # below assumes every ancestor it needs is already in item_cache, which
+        # is guaranteed today precisely BECAUSE a node is only ever visited when
+        # its whole ancestor line was visited (and cached) first. If children of
+        # a skipped parent are re-queued, that assumption breaks and the walk
+        # falls back to fetch_item -- still correct, but no longer free.
         if item and item.get("type") == "comment" and not item.get("deleted"):
             item["_depth"] = depth.get(item["id"], 1)
             item["_story_id"] = story_item["id"]
@@ -189,7 +212,9 @@ def fetch_comment_tree(story_item):
 
             # Walk the ancestor chain for context, nearest parent first.
             # BFS guarantees every ancestor was processed (and cached) before this
-            # node was dequeued, so this is almost always cache hits and no network.
+            # node was dequeued, so these are cache hits and cost no extra network
+            # calls. See the KNOWN LIMITATION note above for why that guarantee
+            # holds and what would invalidate it.
             ancestors = []
             ancestor_id = item.get("parent")
             # Bound hops, not just collected texts: an ancestor with no text
