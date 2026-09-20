@@ -34,7 +34,6 @@ Each pattern document should follow this structure:
 ### 1. Frontmatter
 ```yaml
 ---
-slug: pattern-name
 title: Pattern Name
 ---
 ```
